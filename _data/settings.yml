@@ -1,0 +1,15 @@
+homepage_settings:
+  countdown:
+    show: false
+    timezone: Europe/Berlin
+    deadline: 2025-01-28 11:59
+  modal:
+    show: false
+    delay: 5000
+  testimonials:
+    show: true
+    title: "Testimonials"
+  gallery:
+    show: true
+    title: "See how ElixirConf EU 2024 went!"
+  tickets: true
