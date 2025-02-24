@@ -1,8 +1,8 @@
-title: ElixirConf EU
+title: ElixirConf®
 description: > # this means to ignore newlines until "baseurl:"
-Join us for ElixirConf EU 2025 in Lisbon on 15-16 May: two days of first-rate Elixir talks and networking.
+Join us for ElixirConf® 2025 in Orlando & online on Aug 28-29: two days of first-rate Elixir talks and networking.
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.elixirconf.eu" # the base hostname & protocol for your site
+url: "https://www.elixirconf.com" # the base hostname & protocol for your site
 
 logo: "./assets/images/logo2022.png"
 
@@ -17,12 +17,12 @@ plugins:
 # Social networks usernames (many more available: google-plus, flickr, dribbble, pinterest, instagram, tumblr, linkedin, etc.)
 social:
   - title: twitter
-    url: https://twitter.com/elixirconfeu
-    username: elixirconfeu
+    url: https://twitter.com/elixirconf
+    username: elixirconf
     card: image
   - title: bluesky
-    url: https://bsky.app/profile/elixirconfeu.bsky.social
-    username: elixirconfeu
+    url: https://bsky.app/profile/elixirconf.bsky.social
+    username: elixirconf
     card: image
 
 # Build settings
@@ -95,7 +95,7 @@ defaults:
 # Google Map JS api
 # This is my api for this template
 key-api: AIzaSyBf-F7nBzxi_73uI9QUxRQ-cNihYtlZ_AA
-map-text: DoubleTree by Hilton
-map-text-location: Dąbska 5, 31-572 Kraków, Poland
-map-lat: 50.06464869180978
-map-lng: 19.98181385577854
+map-text: Renaissance Orlando at SeaWorld®
+map-text-location: 6677 Sea Harbor Drive, Orlando, FL, 32821
+map-lat: 28.411744089229607
+map-lng: -81.46738708721759
