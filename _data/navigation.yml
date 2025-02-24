@@ -4,22 +4,22 @@
 #  link: "welcome"
 #- name: 2025 Waiting List
 #  link: "newsletter"
-- name: TICKETS
-  link: "tickets"
-#- name: Call for Talks
-#  link: "cft"
-#- name: Call for Training
-#  link: "call-for-training"
+#- name: TICKETS
+#  link: "tickets"
+- name: Call for Talks
+  link: "cft"
+- name: Call for Training
+  link: "call-for-training"
 #- name: All Recordings
 #  link: "recordings"
 #- name: Schedule
 #  link: "schedule-button"
 #- name: Public videos
 #  link: "video"
-- name: Speakers
-  link: "keynotes"
-- name: Training
-  link: "training"
+#- name: Speakers
+#  link: "keynotes"
+#- name: Training
+#  link: "training"
 #- name: Diversity
 #  link: "diversity"
 #- name: Volunteer
@@ -38,5 +38,5 @@
 #  link: "blog"
 - name: Sponsors
   link: "sponsors"
-#- name: Contact
-#  link: "contact"
+- name: Contact
+  link: "contact"
