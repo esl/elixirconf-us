@@ -11,5 +11,5 @@ homepage_settings:
     title: "Testimonials"
   gallery:
     show: true
-    title: "See how ElixirConf EU 2024 went!"
+    title: "See how ElixirConf US 2024 went!"
   tickets: true
