@@ -12,4 +12,4 @@ homepage_settings:
   gallery:
     show: true
     title: "See how ElixirConf US 2024 went!"
-  tickets: true
+  tickets: false
