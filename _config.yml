@@ -1,6 +1,6 @@
 title: ElixirConf®
 description: > # this means to ignore newlines until "baseurl:"
-Join us for ElixirConf® 2025 in Orlando & online on Aug 28-29: two days of first-rate Elixir talks and networking + two days of training on Aug 26-27.
+Join us for ElixirConf® 2025 in Orlando & online on Aug 27-29: one day of workshops on Aug 27 + two days of first-rate Elixir talks and networking on Aug 28-29.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.elixirconf.com" # the base hostname & protocol for your site
 
