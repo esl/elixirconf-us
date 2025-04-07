@@ -2,9 +2,10 @@
     height: 100vh; /* Kontener zajmuje 100% wysokości okna */
     align-items: center;
     background-image: url("/assets/images/ElixirConfEU-banner-1920x717-2.jpg");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
+    background-size: contain; /* Tło jest skalowane tak, aby było w pełni widoczne */
+    background-position: center; /* Tło jest wyśrodkowane */
+    background-repeat: no-repeat; /* Tło nie będzie się powtarzać */
+    background-attachment: fixed; /* Tło jest przyczepione do ekranu */
     color: #fff;
     display: flex;
     flex-flow: column;
