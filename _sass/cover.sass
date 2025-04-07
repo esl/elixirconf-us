@@ -1,10 +1,10 @@
 .cover {
-    height: 100vh;
+    height: 100vh; /* Kontener zajmuje 100% wysokości okna */
     align-items: center;
     background-image: url("/assets/images/ElixirConfEU-banner-1920x717-2.jpg");
-    background-size: 100% auto;
-    background-position: center center;
-    background-repeat: no-repeat;
+    background-size: auto 100%; /* Dopasowanie tylko wysokości, szerokość automatyczna */
+    background-position: center center; /* Tło jest wyśrodkowane */
+    background-repeat: no-repeat; /* Tło nie będzie się powtarzać */
     color: #fff;
     display: flex;
     flex-flow: column;
@@ -52,9 +52,4 @@
     }
 
     .btn-arrow {
-        border: solid 0.09em #9AD7D8;
-        border-radius: 60%;
-        font-size: 1.6em;
-        padding: 0.8em;
-    }
-}
+        border: solid 0.09em #
