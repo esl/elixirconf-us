@@ -1,24 +1,21 @@
-<div class="section register" id="register">
-    <h2 class="title">REGISTER</h2>
-    <hr/>
-<div class="register-widget" id="eventbrite-widget-container-1215108244469">&nbsp;</div>
-
-<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
-
-<script type="text/javascript">
-var exampleCallback = function() {
-    console.log('Order complete!');
-};
-
-window.EBWidgets.createWidget({
-    // Required
-    widgetType: 'checkout',
-    eventId: '1215108244469',
-    iframeContainerId: 'eventbrite-widget-container-1215108244469',
-
-    // Optional
-    iframeContainerHeight: 700,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
-    onOrderComplete: exampleCallback  // Method called when an order has successfully completed
-});
-</script>
+<div class=“section register” id=“register”>
+    <h2 class=“title”>REGISTER</h2>
+    <hr/></br></br>
+    <div class=“register-widget”>
+        <tito-widget event=“elixirconf/2025”></tito-widget>
+    </div>
+    <script src=“https://js.tito.io/v2/with/inline” async></script>
+    <style type=“text/css”>
+      .tito-widget .tito-form-actions .tito-submit {
+        background-color: purple !important;
+      }
+      .tito-widget .tito-widget-form {
+        background-color: lightgrey !important;
+      }
+      /* Remove bold from ticket descriptions */
+      .tito-widget .tito-ticket-description,
+      .tito-widget .tito-ticket-name {
+        font-weight: normal !important;
+      }
+    </style>
 </div>
