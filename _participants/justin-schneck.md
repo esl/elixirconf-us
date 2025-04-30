@@ -1,10 +1,9 @@
 ---
-name: Josh Price
-pic_url: "/assets/images/josh-price.jpg"
-tagline: Technical Director @ Alembic
-github: joshprice
-twitter: joshprice
-linkedin: /in/joshcprice
+name: Justin Schneck
+pic_url: "/assets/images/justin-s.jpeg"
+tagline: Founder @ Peridio
+github: mobileoverlord
+twitter: mobileoverlord
 
 ---
-Josh Price is a polyglot software developer and technology consultant from Sydney, Australia.He’s passionate about modern approaches to Software Development and helping teams build amazing software faster with better tooling. He’s organised community events such as the Elixir Sydney and GraphQL Sydney meetups for many years.He also co-founded Alembic, which is building a team to bring functional programming benefits to everyone’s day to day work. When not running Alembic or thinking about how to build software more effectively, he’ll generally enjoy talking interesting ideas over a pint of craft beer. or thinking about his next adventure.
+I’m in a constant state of wanting to make the world around me bend to my imagination. At one time I wondered how hard it would be to start my motorcycle from my phone. Rewiring a motorcycle and writing an interface was easy, but connecting it all together proved to be a challenge. A challenge that would define my career. That invisible, often impenetrable layer in the air between all the hardware in the world has become my stomping ground.
