@@ -2,7 +2,9 @@
 experience:
 - Intermediate
 title: 'Next-Gen Embedded Systems: Building an AI-Powered Computer Vision Game with Elixir and Avocado OS'
-type: workshop
+type: 3h workshop
+date: August 27, 2025
+venue: Renaissance Orlando at SeaWorld
 trainers:
 - _participants/justin-schneck.md
 
@@ -23,4 +25,4 @@ Beyond the engaging Battleship implementation, attendees will gain valuable arch
  * The ultimate goal is enabling participants to leverage Elixir's concurrency model and fault-tolerance for next-generation embedded AI products
 
 **Training prerequisites:**
-Hardware will be required. Space will be limited. HW cost will be ~300$ extra.
+This workshop requires additional hardware, which participants will need to purchase separately (estimated cost: approx. $100). Details on how to obtain the hardware will be provided before the event.
