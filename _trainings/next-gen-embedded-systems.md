@@ -15,6 +15,10 @@ The workshop demonstrates how Elixir's fault-tolerant architecture makes it idea
 
 Beyond the engaging Battleship implementation, attendees will gain valuable architectural patterns applicable to commercial embedded products across industrial, IoT, and consumer applications. This workshop bridges the gap between theoretical concepts and practical implementation, delivering both immediate satisfaction through gameplay and long-term value through production-ready embedded system design principles.
 
+**DURATION**
+
+3 hours
+
 **Workshop objectives:**
 
  * Equip developers with practical skills for building AI-powered devices using Elixir and Avocado OS

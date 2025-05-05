@@ -11,6 +11,10 @@ trainers:
 ---
 Ash comes with powerful, out-of-the-box multi-tenancy support — and in this hands-on workshop, you’ll harness that magic to build a multi-tenant application from the ground up. We'll explore different approaches to multi-tenancy, integrate with AshAuthentication, and highlight best practices along the way. By the end, you’ll have a solid foundation to build and scale multi-tenant apps with confidence — and the reassurance that Ash has your back.
 
+**DURATION**
+
+3 hours
+
 **Workshop objectives:**
 By the end of this workshop, participants will be able to:
 
@@ -21,7 +25,7 @@ By the end of this workshop, participants will be able to:
 5. Apply best practices for scalability and maintainability in multi-tenant Ash applications.
 6. Gain confidence to extend and customize multi-tenancy solutions in their own projects using Ash's ecosystem.
 
-**Training prerequisites:**
+**Workshop prerequisites:**
 * Basic familiarity with Elixir (no need to be an expert — comfort with the syntax and concepts is enough).
 * Some experience with Ash Framework is helpful but not required — we’ll walk through everything step by step.
 
