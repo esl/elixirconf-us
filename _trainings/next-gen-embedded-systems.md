@@ -2,7 +2,7 @@
 experience:
 - Intermediate
 title: 'Next-Gen Embedded Systems: Building an AI-Powered Computer Vision Game with Elixir and Avocado OS'
-type: 3h workshop
+type: workshop
 date: August 27, 2025
 venue: Renaissance Orlando at SeaWorld
 trainers:
