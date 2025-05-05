@@ -11,10 +11,10 @@
                 end_date = item.end | date: '%d' %} {% if start_date != end_date
                 %} {{ start_date }}-{{ end_date }} {{ item.start | date: '%b %Y'
                 }} {{ item.start | date: '%-H' }}:{{ item.start | date: '%M'
-                }}-{{ item.end | date: '%-H' }}:{{ item.end | date: '%M' }} CEST
+                }}-{{ item.end | date: '%-H' }}:{{ item.end | date: '%M' }} ET
                 {% else %} {{ item.start | date: '%-d %b %Y' }} {{ item.start |
                 date: '%-H' }}:{{ item.start | date: '%M' }}-{{ item.end | date:
-                '%-H' }}:{{ item.end | date: '%M' }} CEST {% endif %}
+                '%-H' }}:{{ item.end | date: '%M' }} ET {% endif %}
             </div>
 
             <div class="item-col item-training">
