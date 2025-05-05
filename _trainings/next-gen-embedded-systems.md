@@ -15,6 +15,9 @@ The workshop demonstrates how Elixir's fault-tolerant architecture makes it idea
 
 Beyond the engaging Battleship implementation, attendees will gain valuable architectural patterns applicable to commercial embedded products across industrial, IoT, and consumer applications. This workshop bridges the gap between theoretical concepts and practical implementation, delivering both immediate satisfaction through gameplay and long-term value through production-ready embedded system design principles.
 
+**Workshop prerequisites:**
+This workshop requires additional hardware, which participants will need to purchase separately (estimated cost: approx. $100). Details on how to obtain the hardware will be provided before the event.
+
 **DURATION**
 
 3 hours
@@ -27,6 +30,3 @@ Beyond the engaging Battleship implementation, attendees will gain valuable arch
  * Provide a complete pipeline from camera input to AI processing using the Avocado OS ecosystem
  * Create engaging, real-world examples through multiplayer interactive systems
  * The ultimate goal is enabling participants to leverage Elixir's concurrency model and fault-tolerance for next-generation embedded AI products
-
-**Training prerequisites:**
-This workshop requires additional hardware, which participants will need to purchase separately (estimated cost: approx. $100). Details on how to obtain the hardware will be provided before the event.
