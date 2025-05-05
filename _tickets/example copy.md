@@ -1,12 +1,11 @@
 ---
 title: 'In-Person Ticket'
-price: 'from 460€'
+price: '$899'
 discount: 'EARLY BIRD TICKETS'
-description: "Limited amount available. Group discounts apply."
+description: "Limited amount available."
 link: '#register'
 conditions:
-  - "The conference ticket doesn't include training sessions."
-  - "Prices don't include VAT and fees."
+  - "The conference ticket doesn't include workshop sessions."
 ---
 
 ### INCLUDED
@@ -19,4 +18,4 @@ conditions:
 - Access to networking and exhibitors area at the venue
 - Conference t-shirt
 - Lunch and beverages
-- Drinks after Day 1
+- Invitation to the reception on Day 1

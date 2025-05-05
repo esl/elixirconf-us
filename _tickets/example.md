@@ -1,17 +1,16 @@
 ---
 title: 'Virtual Ticket'
-price: '129€'
-discount: 'Early Birds discount is on'
-description: "Can't join us in Kraków? Opt for virtual attendance!"
+price: '$199'
+discount: 'EARLY BIRD TICKETS'
+description: "Can't join us in Orlando? Opt for virtual attendance!"
 link: '#register'
 conditions:
-  - "Prices don't include VAT and fees."
-
+  - "The conference ticket doesn't include workshop sessions."
 ---
 
 ### INCLUDED
 
-- Live access to all talks
+- Live access to all streamed talks
 - Access to the conference app
 - Access to live Q&A sessions
 - Online networking via app
