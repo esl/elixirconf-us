@@ -3,22 +3,8 @@
     <hr/>
 <div class="register-widget" id="eventbrite-widget-container-1215108244469">&nbsp;</div>
 
-<script src="https://www.eventbrite.com/static/widgets/eb_widgets.js"></script>
+<tito-widget
+  event="elixirconf/2025">
+</tito-widget>
 
-<script type="text/javascript">
-var exampleCallback = function() {
-    console.log('Order complete!');
-};
-
-window.EBWidgets.createWidget({
-    // Required
-    widgetType: 'checkout',
-    eventId: '1215108244469',
-    iframeContainerId: 'eventbrite-widget-container-1215108244469',
-
-    // Optional
-    iframeContainerHeight: 700,  // Widget height in pixels. Defaults to a minimum of 425px if not provided
-    onOrderComplete: exampleCallback  // Method called when an order has successfully completed
-});
-</script>
 </div>
