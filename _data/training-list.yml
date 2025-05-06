@@ -8,7 +8,7 @@ trainings:
   start: 2025-08-27T13:30:00.000+00:00
   end: 2025-08-27T17:00:00.000+00:00
   timezone: ET
-- training: _trainings/Architecting-reactive-systems.md
+- training: _trainings/Architecting-Systems-For-Scalability-And-Reliability.md
   start: 2025-08-27T09:00:00.000+00:00
   end: 2025-08-27T17:00:00.000+00:00
   timezone: ET
