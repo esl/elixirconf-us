@@ -1,7 +1,7 @@
 ---
 layout: post
 tags: traveling, G2G, things-to-do
-pic_url: "/assets/images/travel-blog.jpg"
+pic_url: "/assets/images/g2g.png"
 author: ElixirConf Team
 
 ---
@@ -41,4 +41,4 @@ Secure your meeting space early and make the most of your time in sunny Florida!
 ## Interested in booking a G2G?
 
 <br>
-[Contact Us](https://elixirconf.com/#contact) or email info@elixirconf.com to reserve discounted rooms and get planning support.
+**[Contact Us](https://elixirconf.com/#contact)** or email info@elixirconf.com to reserve discounted rooms and get planning support.
