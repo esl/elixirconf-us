@@ -5,13 +5,14 @@ tags: []
 title: Lessons From Using Elixir And Phoenix To Build A City Software Infrastructure
 speakers:
 - _participants/shankar-dhanasekaran.md
+published: false
 
 ---
 I've been involved, for the past 12 years as the chief software architect, in developing the software infrastructure for the city of Auroville, a futuristic city of 50K population with people from all over the world, working and living in harmony for Human Unity. ([https://auroville.org/page/vision-of-the-city](https://auroville.org/page/vision-of-the-city "https://auroville.org/page/vision-of-the-city")). Today the life of every citizen in Auroville, whether they buy a coffee in a restaurant or submit a visa application to stay in Auroville, their interactions are powered by Elixir and Phoenix in the background.
 
 As someone who has been instrumental in moving the majority of the software tools used by the city to Elixir and Phoenix in the last 6 years, this talk will start with presenting a big picture of all the apps used in Auroville that are powered by Elixir/Phoenix and present various lessons learned in the process.
 
-**Keynote objectives:**	
+**Keynote objectives:**
 To help developers make design choices in a very complex multi-service business domain in an agile way that doesn't introduce complexity unnecessarily while being flexible enough to change as requirements and conditions change in the business.
 
 In this talk, I will share
