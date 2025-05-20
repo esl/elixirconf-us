@@ -5,6 +5,7 @@ name: Create an AirBnB Clone using Phoenix LiveView
 type: training
 trainers:
 - _participants/shankar-dhanasekaran.md
+published: false
 
 ---
 Fast track your learning journey in Phoenix LiveView by building a clone of AirBnB using the cool new features in Phoenix 1.7 in a practical, task oriented exercise covering every single feature in LiveView. The training is designed to give you confidence in building your next LiveView project while giving a meaningful way to understand these cool features of Phoenix 1.7 and in LiveView in a practical context.
