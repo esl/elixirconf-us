@@ -7,6 +7,7 @@ level: Intermediate
 title: "The Next Dimension of Developer Experience"
 speakers:
 - _participants/zach-daniel.md
+published: false
 
 ---
 Igniter is a project patching and code generation framework for Elixir.
