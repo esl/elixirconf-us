@@ -6,8 +6,4 @@ github: shankardevy
 twitter: shankardevy
 
 ---
-Shankar Dhanasekaran ([@shankardevy](https://twitter.com/shankardevy "@shankardevy")) is a software engineer with more than 15 years of experience in web technologies. His experience spans over Elixir, Phoenix, Ruby, Ruby on Rails, Python, Django, and a multitude of Javascript frameworks among other languages and frameworks he played with. In his career, Shankar has worked with several startups small and large from all over the world working directly under the C-level executives.
-
-He is the author of Phoenix Inside Out book series, Founder & CTO, Talam, Auroville and an Elixir trainer working with both community level education for young adults to corporate training for Multinational Companies.
-
-Shankar has previously taken training workshops and delivered talks in international conferences such as OpenCamps, New York (2018) and training at ElixirConf EU (2019). 2020-2022, he hasn’t travelled to any countries due to COVID restrictions though he was initially selected for training at ElixirConf EU 2020.
+Shankar Dhanasekaran ([@shankardevy](https://twitter.com/shankardevy "@shankardevy")) is the author of "Domain Modeling with Ash Framework" book released in April, 2025 and "Phoenix Inside Out" series of 3 books and 1 booklet. He has more than 18+ years of experience in web/mob app development with 10+ years of experience with Elixir. (He has been working with Elixir from its very first public release). He was also the keynote speaker at ElixirConfEU 2023. He regularly mentors developers in Elixir/Phoenix/Ash through corporate training programmes, online and in his community in Auroville.
