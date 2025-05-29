@@ -6,18 +6,20 @@
 #  link: "newsletter"
 - name: TICKETS
   link: "tickets"
-- name: Call for Talks
-  link: "cft"
-- name: Call for Workshops
-  link: "call-for-training"
+- name: G2G
+  link: "g2g"
+#- name: Call for Talks
+#  link: "cft"
+#- name: Call for Workshops
+#  link: "call-for-training"
 #- name: All Recordings
 #  link: "recordings"
 #- name: Schedule
 #  link: "schedule-button"
 #- name: Public videos
 #  link: "video"
-#- name: Speakers
-#  link: "keynotes"
+- name: Speakers
+  link: "keynotes"
 - name: Workshops
   link: "workshops"
 #- name: Diversity
