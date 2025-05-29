@@ -28,13 +28,13 @@
 #  link: "volunteer"
 #- name: Student
 #  link: "student"
-- name: Venue & Hotel
-  link: "venue"
 #- name: Hybrid
 #  link: "hybrid"
 #- name: Blog
 #  link: "blog"
 - name: Sponsors
   link: "sponsors"
+- name: Venue & Hotel
+  link: "venue"
 - name: Contact
   link: "contact"
