@@ -17,8 +17,6 @@ endcomment %}
 <!-- end of banner-1 -->
 {% include g2g.html %}
 <!-- end of travelling -->
-{% include cft.html %}
-<!-- end of cft -->
 {% comment %} {% include call-for-training.html %} {% endcomment %}
 <!-- end of call-for-training  -->
 {% comment %} {% include recordings.html %} {% endcomment %}
@@ -31,6 +29,8 @@ endcomment %}
 <!-- end of video -->
 {% include keynotes.html %}
 <!-- end of speakers -->
+{% include newsletter.html %}
+<!-- end of newsletter -->
 {% comment %} {% include speakers.html %} {% endcomment %}
 <!-- end of speakers -->
 {% comment %} {% include lightningtalks.html %} {% endcomment %}
@@ -67,12 +67,12 @@ gallery-grid.html %} {% endif %}
 <!-- end of blog -->
 {% include sponsors.html %}
 <!-- end of sponsors -->
+{% include cft.html %}
+<!-- end of cft -->
 <!-- start of  testimonials  block -->
 {% if site.data.settings.homepage_settings.testimonials.show %} {% include
 testimonials.html %} {% endif %}
 <!-- end of  testimonials  block -->
-{% include newsletter.html %}
-<!-- end of newsletter -->
 {% include contact.html %}
 <!-- end of contact -->
 {% if page.modal.show == true %} {% include modal.html %} {% endif %}
