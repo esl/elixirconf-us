@@ -7,7 +7,7 @@ event_date: August 27, 2025
 venue: Renaissance Orlando at SeaWorld
 trainers:
 - _participants/yuri-oliveira.md
-- _participants/vittoria-bitton.md
+- _participants/Vittoria-Bitton.md
 
 ---
 Let's use Nerves to add computer vision capabilities to our home NVR with the Raspberry Pi AI Kit.
