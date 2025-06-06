@@ -25,3 +25,4 @@ Let's use Nerves to add computer vision capabilities to our home NVR with the Ra
 * Elixir/OTP
 * A code editor
 * Nerves dependencies (https://hexdocs.pm/nerves/1.7.6/installation.html)
+You can bring your own Raspberry Pi, if you have one.
