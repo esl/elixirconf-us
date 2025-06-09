@@ -1,6 +1,6 @@
 ---
 name: Yuri Oliveira
-pic_url: "/assets/images/testimonials/1.png"
+pic_url: "/assets/images/yuri-oliveira.png"
 tagline: Software Engineer @ Savi Solutions
 github: yuriploc
 twitter: yuriploc
