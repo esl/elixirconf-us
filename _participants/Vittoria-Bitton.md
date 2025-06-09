@@ -1,6 +1,6 @@
 ---
 name: Vittoria Bitton
-pic_url: "/assets/images/vittoria-bitton.jpg"
+pic_url: "/assets/images/vittoria.jpeg"
 tagline: Senior Software Engineer @ Savi Solutions
 github:
 twitter: vittoria_bitton
