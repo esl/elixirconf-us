@@ -1,6 +1,6 @@
 ---
 title: 'Workshop Ticket'
-price: '$999'
+price: '$270'
 discount:
 description: "Access to workshops of your choice on the day before the conference. Limited amount available."
 link: '#register'
