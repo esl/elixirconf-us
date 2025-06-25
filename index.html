@@ -52,9 +52,6 @@ tickets-block.html %} {% endif %}
 <!-- end of diversity -->
 {% comment %} {% include banner-4.html %} {% endcomment %}
 <!-- end of banner-4 -->
-{% if site.data.settings.homepage_settings.gallery.show %} {% include
-gallery-grid.html %} {% endif %}
-<!-- end of gallery-grid  -->
 {% include venue.html %}
 <!-- end of venue -->
 {% comment %} {% include covid-19.html %} {% endcomment %}
@@ -67,6 +64,9 @@ gallery-grid.html %} {% endif %}
 <!-- end of blog -->
 {% include sponsors.html %}
 <!-- end of sponsors -->
+{% if site.data.settings.homepage_settings.gallery.show %} {% include
+gallery-grid.html %} {% endif %}
+<!-- end of gallery-grid  -->
 {% include cft.html %}
 <!-- end of cft -->
 <!-- start of  testimonials  block -->
