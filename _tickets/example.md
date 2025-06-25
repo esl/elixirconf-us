@@ -1,7 +1,7 @@
 ---
 title: 'Virtual Ticket'
-price: '$199'
-discount: 'EARLY BIRD TICKETS'
+price: '$249'
+discount:
 description: "Can't join us in Orlando? Opt for virtual attendance!"
 link: '#register'
 conditions:

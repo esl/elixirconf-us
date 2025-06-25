@@ -1,7 +1,7 @@
 ---
 title: 'In-Person Ticket'
-price: '$899'
-discount: 'EARLY BIRD TICKETS'
+price: '$999'
+discount:
 description: "Limited amount available."
 link: '#register'
 conditions:
