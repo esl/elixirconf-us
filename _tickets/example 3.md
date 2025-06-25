@@ -10,6 +10,6 @@ conditions:
 
 ### INCLUDED
 
-- Access to hands-on full-day of workshops of your choice (see the list below)
-- Materials or instructions from trainers
+- Access to full-day of hands-on workshops of your choice (see the list below)
+- Materials and/or instructions from trainers
 - Lunch and beverages during the workshop day
