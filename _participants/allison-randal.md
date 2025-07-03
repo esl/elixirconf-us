@@ -4,7 +4,6 @@ pic_url: "/assets/images/allison-randal.png"
 tagline: Open source/hardware developer and strategist
 github: "allisonrandal"
 twitter: "@allisonrandal"
-linkedin: /in/negiakhilesh/
 
 ---
 Is an open source/hardware developer and strategist. She is chair of the board at the Software Freedom Conservancy, vice-chair of the board at the Open Infrastructure Foundation, and co-founder of the FLOSS Foundations group for open source leaders.
