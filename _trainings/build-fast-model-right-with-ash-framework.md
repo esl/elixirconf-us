@@ -7,6 +7,7 @@ event_date: August 27, 2025
 venue: Renaissance Orlando at SeaWorld
 trainers:
 - _participants/shankar-dhanasekaran.md
+- _participants/nittin-shankar.md
 
 ---
 Crash course on using Ash Framework covering major Ash concepts with real world examples. You will get a fully working Github repo to deep dive during and after the workshop.
