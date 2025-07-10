@@ -15,7 +15,7 @@
 #- name: All Recordings
 #  link: "recordings"
 - name: Schedule
-  link: "schedule-button"
+  link: "schedule"
 #- name: Public videos
 #  link: "video"
 - name: Speakers
