@@ -8,6 +8,7 @@ title: "Panel discussion: TBC"
 speakers:
   - _participants/savannah-manning.md
   - _participants/anna-sherman.md
+  - _participants/allison-randal.md
 
 ---
 TBC
