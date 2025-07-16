@@ -1,6 +1,6 @@
 ---
 name: Misael Perez Chamorro
-pic_url: "/assets/images/Misael_Perez Chamorro.jpg"
+pic_url: "/assets/images/Misael_Perez_Chamorro.jpg"
 tagline: "I build TICH, enjoy writing Elixir, ride bikes, and love making things that scale."
 twitter: misaelpc
 linkedin: /in/misael-perez-19860789/
