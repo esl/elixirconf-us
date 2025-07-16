@@ -1,9 +1,9 @@
 ---
 name: Bruce Tate
-pic_url: "/assets/images/bruce-tate-bw.png"
-tagline: Author, Editor, Founder of Grox.IO
-github: batate
-twitter: "@redrapids"
+pic_url: "/assets/images/Bruce_Tate.jpg"
+tagline: "Founder, Groxio"
+twitter: redrapids
+linkedin: /in/bruce-tate
 
 ---
-Bruce Tate is an author, speaker, and software developer known for his expertise in programming languages, particularly Elixir. He has authored several influential programming books, including Seven Languages in Seven Weeks, and is a key advocate for the adoption and growth of Elixir in the software development community. Bruce is also the founder of Groxio, a platform that provides training and learning resources for Elixir developers. With a background in Java, Ruby, and other programming languages, he has been instrumental in guiding developers towards functional programming and modern software development practices.
+Bruce Tate is a kayaker, climber, programmer and father of two from Chattanooga, Tennessee. A serial entrepreneur, he has helped start three companies, and most recently served as CTO for icanmakeitbetter. The author of more than a dozen books is active in the Elixir community as a speaker, author, editor and conference organizer. His love for teaching and computer languages led him to found Groxio in 2018.
