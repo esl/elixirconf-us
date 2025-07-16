@@ -1,6 +1,6 @@
 ---
 name: Juan Manuel Azambuja
-pic_url: "/assets/images/Juan Manuel_Azambuja.jpg"
+pic_url: "/assets/images/Juan_Manuel_Azambuja.jpg"
 tagline: "Software Engineer & Co-founder @Mimiquate"
 twitter: juanazam
 linkedin: /in/juan-azambuja-62b4a872/
