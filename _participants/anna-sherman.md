@@ -6,6 +6,4 @@ github: cavewoman
 linkedin: /in/anna-sherman-54289372/
 
 ---
-Anna is a functional developer and team lead at Zillion, an insurtech startup that makes it easy to protect the things you love. She is the Chair of ChaTech Women and Secretary of the Board of Directors for ChaTech. Anna is also an organiser for two developer meetups in Chattanooga -include(Chatt), formerly CodeXX, and Chadev.
-
-Anna can also be found helping out with Carbon Five Hack Nights, Programming Interview Practice, and ChaJS. She has a passion for helping learners find their way in their developer journey. Anna also enjoys painting along with Bob Ross and spending time with her husband and dog.
+Anna is a functional developer and team lead at Zillion, an insurtech startup that makes it easy to protect the things you love. Outside of work, Anna’s all about her family—she has two young kids and a husband she enjoys biking, swimming, and eating ice cream with. She also loves playing Pokémon TCG and practices yoga to stay chill and energized.
