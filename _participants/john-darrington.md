@@ -1,7 +1,7 @@
 ---
 name: John Darrington
 pic_url: "/assets/images/John_Darrington.jpg"
-tagline: "Principal Data Engineer, CoBank"
+tagline: "Principal Data Engineer"
 linkedin: /in/johnwdarrington/
 
 ---
