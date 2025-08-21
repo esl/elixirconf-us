@@ -1,11 +1,12 @@
 ---
-tags: 
+tags:
   - ecto-domain-modeling
 
 level: Intermediate
 title: "Building Maintainable Applications in Elixir with Ecto: Why Domain Modeling Matters"
-speakers: 
+speakers:
   - _participants/nicholas-henry.md
+published: false
 
 ---
 As developers, we are often tasked with building applications that not only perform well but also reflect real-world business concepts. However, in the world of Elixir and Ecto, many of us struggle with modeling complex domains beyond basic database relationships like belongs_to and has_many. When our models are reduced to little more than tables with associations, we lose the opportunity to express the richness of business logic in a clear, maintainable way.
