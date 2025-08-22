@@ -1,12 +1,12 @@
 ---
-tags: 
+tags:
   - authorization
   - absinthe
   - graphql
 
 level: Intermediate
-title: "Implementing permission based authorization in Absinthe with custom GraphQL directives"
-speakers: 
+title: "@auth and Beyond: Building Custom GraphQL Directives in Absinthe"
+speakers:
   - _participants/ivy-markwell.md
 
 ---
