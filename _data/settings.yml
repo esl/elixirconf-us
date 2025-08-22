@@ -2,7 +2,7 @@ homepage_settings:
   countdown:
     show: true
     timezone: America/New_York
-    deadline: 2025-08-19 23:59
+    deadline: 2025-08-28 9:00
   modal:
     show: false
     delay: 5000
