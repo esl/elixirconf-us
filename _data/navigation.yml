@@ -4,16 +4,16 @@
 #  link: "welcome"
 #- name: 2025 Waiting List
 #  link: "newsletter"
-- name: TICKETS
-  link: "tickets"
-- name: G2G
-  link: "g2g"
+#- name: TICKETS
+#  link: "tickets"
+#- name: G2G
+#  link: "g2g"
 #- name: Call for Talks
 #  link: "cft"
 #- name: Call for Workshops
 #  link: "call-for-training"
-#- name: All Recordings
-#  link: "recordings"
+- name: Access Recordings
+  link: "register"
 - name: Schedule
   link: "schedule"
 #- name: Public videos
