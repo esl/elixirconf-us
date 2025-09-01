@@ -1,6 +1,6 @@
 homepage_settings:
   countdown:
-    show: true
+    show: false
     timezone: America/New_York
     deadline: 2025-08-28 09:00
   modal:
