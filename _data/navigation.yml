@@ -2,8 +2,8 @@
 #  link: "cover"
 #- name: Welcome
 #  link: "welcome"
-- name: Newsletter
-  link: "newsletter"
+- name: Access Recordings
+  link: "register"
 #- name: TICKETS
 #  link: "tickets"
 #- name: G2G
@@ -12,8 +12,6 @@
 #  link: "cft"
 #- name: Call for Workshops
 #  link: "call-for-training"
-- name: Access Recordings
-  link: "register"
 - name: Schedule
   link: "schedule"
 #- name: Public videos
@@ -36,5 +34,7 @@
   link: "sponsors"
 - name: Venue & Hotel
   link: "venue"
+- name: Newsletter
+  link: "newsletter"
 - name: Contact
   link: "contact"
