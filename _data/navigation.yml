@@ -4,6 +4,8 @@
 #  link: "welcome"
 - name: Access Recordings
   link: "register"
+- name: 2026 Waiting List
+  link: "newsletter"
 #- name: TICKETS
 #  link: "tickets"
 #- name: G2G
@@ -34,7 +36,5 @@
   link: "sponsors"
 - name: Venue & Hotel
   link: "venue"
-- name: Newsletter
-  link: "newsletter"
 - name: Contact
   link: "contact"
