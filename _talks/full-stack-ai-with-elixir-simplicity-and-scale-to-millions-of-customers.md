@@ -1,17 +1,17 @@
 ---
-tags: 
+tags:
   - ai
   - llm
 
 level: Intermediate
 title: "Full-Stack AI with Elixir: Simplicity and Scale to Millions of Customers"
-speakers: 
+speakers:
   - _participants/george-guimaraes.md
 
 ---
 AI systems are usually complex: Python APIs, model servers, queues, multiple frontends, and way too many moving parts.
 
-At CloudWalk, we took a different path. We built a full-stack AI system in Elixir that serves over 3 million customers—handling everything from LLM-based chat to GPU-powered image moderation, all in one cohesive codebase.
+At work, we took a different path. We built a full-stack AI system in Elixir that serves over 3 million customers—handling everything from LLM-based chat to GPU-powered image moderation, all in one cohesive codebase.
 
 In this talk, I’ll show how Elixir helped us:
 	•	Build a production-ready chat agent with multi-agent orchestration
