@@ -11,12 +11,10 @@
     link: "schedule"
   - name: Speakers
     link: "keynotes"
-  - name: Venue & Hotel
-    link: "venue"
+  - name: Trainers
+    link: "trainers"
   - name: Workshops
     link: "workshops"
-  - name: Newsletter
-    link: "newsletter"
 - name: Access Recordings
   link: "register"
 - name: 2026 Waiting List
@@ -45,7 +43,7 @@
 #  link: "student"
 #- name: Hybrid
 #  link: "hybrid"
-- name: MERCH
+- name: Merch
   link: "shop"
 - name: Sponsors
   link: "sponsors"
