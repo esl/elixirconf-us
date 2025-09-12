@@ -2,6 +2,21 @@
 #  link: "cover"
 #- name: Welcome
 #  link: "welcome"
+- name: About
+  link:
+  children:
+  - name: What is this about?
+    link: "welcome"
+  - name: Schedule
+    link: "schedule"
+  - name: Speakers
+    link: "keynotes"
+  - name: Venue & Hotel
+    link: "venue"
+  - name: Workshops
+    link: "workshops"
+  - name: Newsletter
+    link: "newsletter"
 - name: Access Recordings
   link: "register"
 - name: 2026 Waiting List
@@ -14,14 +29,14 @@
 #  link: "cft"
 #- name: Call for Workshops
 #  link: "call-for-training"
-- name: Schedule
-  link: "schedule"
+#- name: Schedule
+#  link: "schedule"
 #- name: Public videos
 #  link: "video"
-- name: Speakers
-  link: "keynotes"
-- name: Workshops
-  link: "workshops"
+#- name: Speakers
+#  link: "keynotes"
+#- name: Workshops
+#  link: "workshops"
 #- name: Diversity
 #  link: "diversity"
 #- name: Volunteer
@@ -30,11 +45,11 @@
 #  link: "student"
 #- name: Hybrid
 #  link: "hybrid"
-#- name: MERCH
-#  link: "shop"
+- name: MERCH
+  link: "shop"
 - name: Sponsors
   link: "sponsors"
-- name: Venue & Hotel
-  link: "venue"
+#- name: Venue & Hotel
+#  link: "venue"
 - name: Contact
   link: "contact"
