@@ -1,8 +1,8 @@
 ---
 name: Lorena Mireles
-pic_url: "/assets/images/lorena-mireles.jpg"
-tagline: Elixir Developer at Erlang Solutions, member and supporter of Technolatinas
-twitter: loreniuxmr
+pic_url: "/assets/images/Lorena-Mireles-2026.jpeg"
+tagline: Elixir Developer at Erlang Solutions
+linkedin: in/lorena-mireles-rivero/
 
 ---
-Lorena is a backend developer with over ten years of experience; she first heard about Elixir in 2018 and has been a fan of the programming language and has been playing with it ever since. She loves challenges and is an occasional speaker who enjoys sharing her experiences and knowledge. She is committed to reducing the gender gap in technology and actively collaborates with initiatives that focus on this, such as the Technolatinas community. She loves coffee and dogs.
+Lorena is a software developer passionate about new challenges and high-quality code, which is why she became a fan of Elixir from her first encounter with it in 2018 and, subsequently, of the BEAM world. She is committed to diversity and inclusion in the industry. Occasional speaker, permanent coffee enthusiast.
