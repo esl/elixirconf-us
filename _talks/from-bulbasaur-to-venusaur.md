@@ -2,7 +2,7 @@
 audience:
 - introductory & overview
 tags: []
-title: From Bulbasaur to Venusaur: How to Bloom in Even the Most Unlikely Jobs
+title: "From Bulbasaur to Venusaur: How to Bloom in Even the Most Unlikely Jobs"
 speakers:
 - _participants/anna-sherman.md
 
