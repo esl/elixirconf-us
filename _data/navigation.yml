@@ -29,8 +29,8 @@
 #  link: "call-for-training"
 #- name: Schedule
 #  link: "schedule"
-#- name: Public videos
-#  link: "video"
+- name: 2025 recordings
+  link: "video"
 #- name: Speakers
 #  link: "keynotes"
 #- name: Workshops
