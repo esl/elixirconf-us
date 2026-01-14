@@ -1,6 +1,6 @@
 title: ElixirConf®
 description: > # this means to ignore newlines until "baseurl:"
-Join us for ElixirConf® 2025 in Orlando & online on Aug 27-29: one day of workshops on Aug 27 + two days of first-rate Elixir talks and networking on Aug 28-29.
+Join us for ElixirConf® 2026 in Chicago & online on Sept 9-11: one day of workshops on Sept 9 + two days of first-rate Elixir talks and networking on Sept 10-11.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://www.elixirconf.com" # the base hostname & protocol for your site
 
@@ -95,7 +95,7 @@ defaults:
 # Google Map JS api
 # This is my api for this template
 key-api: AIzaSyBf-F7nBzxi_73uI9QUxRQ-cNihYtlZ_AA
-map-text: Renaissance Orlando at SeaWorld®
-map-text-location: 6677 Sea Harbor Drive, Orlando, FL, 32821
-map-lat: 28.411744089229607
-map-lng: -81.46738708721759
+map-text: voco Chicago Downtown
+map-text-location: 350 W Wolf Point Plaza, Chicago, IL 60654
+map-lat: 41.88817
+map-lng: -87.63718
