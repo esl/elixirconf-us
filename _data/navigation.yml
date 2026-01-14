@@ -15,8 +15,8 @@
     link: "trainers"
   - name: Workshops
     link: "workshops"
-- name: Access Recordings
-  link: "register"
+# name: Access Recordings
+#  link: "register"
 - name: 2026 Waiting List
   link: "newsletter"
 #- name: TICKETS
@@ -29,8 +29,8 @@
 #  link: "call-for-training"
 #- name: Schedule
 #  link: "schedule"
-#- name: Public videos
-#  link: "video"
+- name: Public videos
+  link: "video"
 #- name: Speakers
 #  link: "keynotes"
 #- name: Workshops
