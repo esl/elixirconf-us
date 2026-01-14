@@ -47,6 +47,8 @@
 #  link: "shop"
 #- name: Sponsors
 #  link: "sponsors"
+- name: Support us!
+  link: "sponsor"
 - name: Venue & Hotel
   link: "venue"
 - name: Contact
