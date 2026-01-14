@@ -25,7 +25,7 @@ endcomment %}
 <!-- end of banner-2 -->
 {% include banner-5.html %}
 <!-- end of banner-5 -->
-{% comment %} {% include video.html %} {% endcomment %}
+{% include video.html %}
 <!-- end of video -->
 {% include schedule.html %}
 <!-- end of schedule -->
@@ -46,7 +46,7 @@ endcomment %}
 {% comment %} {% if site.data.settings.homepage_settings.tickets %} {% include
 tickets-block.html %} {% endif %} {% endcomment %}
 <!-- end of tickets -->
-{% include register.html %}
+{% comment %} {% include register.html %} {% endcomment %}
 <!-- end of register -->
 {% comment %} {% include diversity.html %} {% endcomment %}
 <!-- end of diversity -->
@@ -67,7 +67,7 @@ tickets-block.html %} {% endif %} {% endcomment %}
 {% if site.data.settings.homepage_settings.gallery.show %} {% include
 gallery-grid.html %} {% endif %}
 <!-- end of gallery-grid  -->
-{% include cft.html %}
+{% comment %} {% include cft.html %} {% endif %}
 <!-- end of cft -->
 <!-- start of  testimonials  block -->
 {% if site.data.settings.homepage_settings.testimonials.show %} {% include
