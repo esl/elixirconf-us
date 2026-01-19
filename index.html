@@ -52,6 +52,10 @@ tickets-block.html %} {% endif %} {% endcomment %}
 <!-- end of diversity -->
 {% comment %} {% include banner-4.html %} {% endcomment %}
 <!-- end of banner-4 -->
+<!-- start of  testimonials  block -->
+{% if site.data.settings.homepage_settings.testimonials.show %} {% include
+testimonials.html %} {% endif %}
+<!-- end of  testimonials  block -->
 {% include venue.html %}
 <!-- end of venue -->
 {% comment %} {% include covid-19.html %} {% endcomment %}
@@ -69,10 +73,6 @@ gallery-grid.html %} {% endif %}
 <!-- end of gallery-grid  -->
 {% comment %} {% include cft.html %} {% endcomment %}
 <!-- end of cft -->
-<!-- start of  testimonials  block -->
-{% if site.data.settings.homepage_settings.testimonials.show %} {% include
-testimonials.html %} {% endif %}
-<!-- end of  testimonials  block -->
 {% include contact.html %}
 <!-- end of contact -->
 {% if page.modal.show == true %} {% include modal.html %} {% endif %}
