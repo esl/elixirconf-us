@@ -1,8 +1,7 @@
 ---
-name: Britton Broderick
-role: 2023 Article
+name: Phuong Van
+role: Blog post at erlang-solutions.com
 profile_pic: /assets/images/testimonials/4.png
 ---
 
-ElixirConf 2023 was in Orlando, Florida this year. For those who couldn't make it, it was a great event. There was a solid set of talks, trainings, and hallway conversations that made this a worthwhile conference.
-
+"Most [attendees] were not shy about approaching others, sharing about their own or their company’s experiences.  (...) Many of the talks were not only interesting but also directly relevant to my work."
