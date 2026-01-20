@@ -2,10 +2,10 @@
 {{ testimonial | json }}
 {% if testimonials != null %}
 <!-- Slider main container -->
-<div class="section section--carousel">
+<div class="section section--carousel" id="testimonials">
  <h3 class="title">{{ site.data.settings.homepage_settings.testimonials.title }}</h3>
 <hr/>
-  <div id="testimonials-carousel-quotes" class="owl-carousel owl-theme"> 
+  <div id="testimonials-carousel-quotes" class="owl-carousel owl-theme">
     {% for testimonial in site.testimonials %}
 <figure class="testimonial-item item">
   <blockquote>
@@ -17,7 +17,7 @@
     <h5>{{ testimonial.name }} <span> {{ testimonial.role }}</span></h5>
   </div>
 </figure>
-   
+
     {% endfor %}
 
   </div>
