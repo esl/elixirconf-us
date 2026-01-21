@@ -31,8 +31,8 @@
 #  link: "schedule"
 - name: 2025 recordings
   link: "video"
-#- name: Speakers
-#  link: "keynotes"
+- name: Speakers
+  link: "keynotes"
 #- name: Workshops
 #  link: "workshops"
 #- name: Diversity
