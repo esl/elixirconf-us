@@ -1,11 +1,12 @@
 ---
-tags: 
+tags:
   - general
 
-level: 
+level:
 title: "Elixir Update & Q&A"
-speakers: 
+speakers:
   - _participants/jose-valim.md
+published: false
 
 ---
 
@@ -15,5 +16,3 @@ speakers:
 
 
 **Target Audience:**
-
-
