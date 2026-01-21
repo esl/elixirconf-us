@@ -29,10 +29,10 @@
 #  link: "call-for-training"
 #- name: Schedule
 #  link: "schedule"
-- name: 2025 recordings
-  link: "video"
 - name: Speakers
   link: "keynotes"
+- name: 2025 recordings
+  link: "video"
 #- name: Workshops
 #  link: "workshops"
 #- name: Diversity
