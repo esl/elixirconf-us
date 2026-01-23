@@ -66,8 +66,6 @@ testimonials.html %} {% endif %}
 <!-- end of shop -->
 {% comment %} {% include blog.html %} {% endcomment %}
 <!-- end of blog -->
-{% comment %} {% include sponsors.html %} {% endcomment %}
-<!-- end of sponsors -->
 {% if site.data.settings.homepage_settings.gallery.show %} {% include
 gallery-grid.html %} {% endif %}
 <!-- end of gallery-grid  -->
@@ -75,6 +73,8 @@ gallery-grid.html %} {% endif %}
 <!-- end of cft -->
 {% include contact.html %}
 <!-- end of contact -->
+{% include sponsors.html %}
+<!-- end of sponsors -->
 {% if page.modal.show == true %} {% include modal.html %} {% endif %}
 <!-- modal block -->
 {% if site.data.settings.homepage_settings.modal.show %} {% include modal.html
