@@ -17,7 +17,9 @@ endcomment %}
 <!-- end of banner-1 -->
 {% comment %} {% include g2g.html %} {% endcomment %}
 <!-- end of travelling -->
-{% comment %} {% include call-for-training.html %} {% endcomment %}
+{% include cft.html %}
+<!-- end of cft -->
+{% include call-for-training.html %}
 <!-- end of call-for-training  -->
 {% comment %} {% include recordings.html %} {% endcomment %}
 <!-- end of recordings -->
@@ -69,8 +71,6 @@ testimonials.html %} {% endif %}
 {% if site.data.settings.homepage_settings.gallery.show %} {% include
 gallery-grid.html %} {% endif %}
 <!-- end of gallery-grid  -->
-{% comment %} {% include cft.html %} {% endcomment %}
-<!-- end of cft -->
 {% include contact.html %}
 <!-- end of contact -->
 {% include sponsors.html %}
