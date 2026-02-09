@@ -1,12 +1,13 @@
-- name: Home
-  link: "cover"
+# name: Home
+#  link: "cover"
 #- name: Welcome
 #  link: "welcome"
-#- name: About
-#  link:
-#  children:
-#  - name: What is this about?
-#    link: "welcome"
+- name: About
+  children:
+  - name: What is this about?
+    link: "welcome"
+  - name: Venue & Hotel
+    link: "venue"
 #  - name: Schedule
 #    link: "schedule"
 #  - name: Speakers
@@ -31,8 +32,8 @@
 #  link: "schedule"
 - name: Speakers
   link: "keynotes"
-- name: 2025 recordings
-  link: "video"
+#- name: 2025 recordings
+#  link: "video"
 #- name: Workshops
 #  link: "workshops"
 #- name: Diversity
@@ -45,11 +46,19 @@
 #  link: "hybrid"
 #- name: Merch
 #  link: "shop"
-- name: Support us!
-  link: "sponsor"
-- name: Venue & Hotel
-  link: "venue"
+#- name: Support us!
+#  link: "sponsor"
 - name: Sponsors
   link: "sponsors"
 - name: Contact
   link: "contact"
+- name: Join us
+  children:
+#    - name: Volunteer
+#      link: "volunteer"
+#    - name: Get support
+#      link: "diversity"
+    - name: Sponsor
+      link: "banner-1"
+    - name: Stay informed
+      link: "newsletter"
