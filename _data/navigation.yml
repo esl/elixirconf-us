@@ -23,10 +23,10 @@
 #  link: "tickets"
 #- name: G2G
 #  link: "g2g"
-#- name: Call for Talks
-#  link: "cft"
-#- name: Call for Workshops
-#  link: "call-for-training"
+- name: Call for Talks
+  link: "cft"
+- name: Call for Workshops
+  link: "call-for-training"
 #- name: Schedule
 #  link: "schedule"
 - name: Speakers
