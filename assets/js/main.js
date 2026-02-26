@@ -25,10 +25,17 @@
     }, 1500)
 
     /**
-     *  Parallax with Scrollax.js - Initialization
+     *  Header background on scroll
      **/
-    ;('use strict')
-    $.Scrollax()
+    var header = document.querySelector('.navbar-fixed-top')
+    window.addEventListener('scroll', function () {
+      if (window.scrollY >= 300) {
+        header.classList.add('navbar-shrink')
+      } else {
+        header.classList.remove('navbar-shrink')
+      }
+    })
+
 
     /**
      *  Main Menu Navigation
