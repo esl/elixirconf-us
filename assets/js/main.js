@@ -131,38 +131,109 @@
     })
 
     /**
-     *  Testimonials Carousel Setup
+     *  Testimonials Carousel
      **/
-    $('#testimonials-carousel').owlCarousel({
-      navigation: true, // Show next & prev buttons
-      slideSpeed: 300,
-      paginationSpeed: 400,
-      singleItem: true,
+    document.querySelectorAll('[data-carousel]').forEach(function (carousel) {
+      var track = carousel.querySelector('.carousel-track')
+      var originalItems = track ? Array.from(track.children) : []
+      var dotsContainer = carousel.querySelector('.carousel-dots')
+      var currentIndex = 0
+      var autoplayInterval
+      var isTransitioning = false
+      var itemCount = originalItems.length
+
+      // Clone items for infinite loop
+      originalItems.forEach(function (item) {
+        var clone = item.cloneNode(true)
+        clone.setAttribute('aria-hidden', 'true')
+        track.appendChild(clone)
+      })
+
+      function getItemsPerView() {
+        if (window.innerWidth >= 1024) return 3
+        if (window.innerWidth >= 640) return 2
+        return 1
+      }
+
+      function updateCarousel(animate) {
+        var itemsPerView = getItemsPerView()
+        var offset = currentIndex * (100 / itemsPerView)
+
+        if (animate === false) {
+          track.style.transition = 'none'
+        } else {
+          track.style.transition = 'transform 0.4s ease'
+        }
+
+        track.style.transform = 'translateX(-' + offset + '%)'
+        updateDots()
+      }
+
+      function updateDots() {
+        if (!dotsContainer) return
+        var itemsPerView = getItemsPerView()
+        var totalDots = Math.ceil(itemCount / itemsPerView)
+        var activeDot = Math.floor((currentIndex % itemCount) / itemsPerView)
+
+        dotsContainer.innerHTML = ''
+        for (var i = 0; i < totalDots; i++) {
+          var dot = document.createElement('button')
+          dot.setAttribute('aria-label', 'Go to slide ' + (i + 1))
+          if (i === activeDot) {
+            dot.classList.add('active')
+          }
+          dot.addEventListener('click', (function (index) {
+            return function () {
+              if (isTransitioning) return
+              currentIndex = index * getItemsPerView()
+              updateCarousel()
+              restartAutoplay()
+            }
+          })(i))
+          dotsContainer.appendChild(dot)
+        }
+      }
+
+      function next() {
+        if (isTransitioning) return
+        isTransitioning = true
+        currentIndex++
+        updateCarousel()
+
+        // Check if we've scrolled into the cloned section
+        setTimeout(function () {
+          if (currentIndex >= itemCount) {
+            currentIndex = 0
+            updateCarousel(false) // Jump back instantly
+          }
+          isTransitioning = false
+        }, 420)
+      }
+
+      function startAutoplay() {
+        autoplayInterval = setInterval(next, 4000)
+      }
+
+      function stopAutoplay() {
+        clearInterval(autoplayInterval)
+      }
+
+      function restartAutoplay() {
+        stopAutoplay()
+        startAutoplay()
+      }
+
+      if (itemCount > 0) {
+        updateCarousel()
+        startAutoplay()
+        carousel.addEventListener('mouseenter', stopAutoplay)
+        carousel.addEventListener('mouseleave', startAutoplay)
+        window.addEventListener('resize', function () {
+          updateCarousel(false)
+        })
+      }
     })
-    $('#testimonials-carousel-quotes').owlCarousel({
-      loop: true,
-      autoplay: true,
-      margin: 40,
-      responsive: {
-        0: {
-          items: 1,
-          nav: true,
-          dots: false,
-          margin: 0,
-        },
-        640: {
-          items: 2,
-          dots: true,
-          nav: false,
-        },
-        1024: {
-          items: 3,
-          dots: true,
-          nav: false,
-        },
-      },
-    })
-    /**
+
     /**
      *  Smooth Scrolling for Links
      **/
