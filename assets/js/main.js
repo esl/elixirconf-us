@@ -13,9 +13,37 @@ document.addEventListener('DOMContentLoaded', function () {
   }, 1500)
 
   /**
-   * Header background on scroll
+   * Header background on scroll + Active section highlighting
    */
   var header = document.querySelector('.navbar-fixed-top')
+  var sections = document.querySelectorAll('section[id], div[id]')
+  var navItems = document.querySelectorAll('#navMenu ul li')
+
+  function updateActiveNav() {
+    var scrollPos = window.scrollY + 100 // offset for header
+
+    sections.forEach(function (section) {
+      var top = section.offsetTop
+      var height = section.offsetHeight
+      var id = section.getAttribute('id')
+
+      if (scrollPos >= top && scrollPos < top + height) {
+        navItems.forEach(function (item) {
+          item.classList.remove('active')
+          var link = item.querySelector('a[href="#' + id + '"]')
+          if (link) {
+            item.classList.add('active')
+          }
+          // Also check dropdown children
+          var dropdownLink = item.querySelector('.dropdown-content a[href="#' + id + '"]')
+          if (dropdownLink) {
+            item.classList.add('active')
+          }
+        })
+      }
+    })
+  }
+
   if (header) {
     window.addEventListener('scroll', function () {
       if (window.scrollY >= 300) {
@@ -23,7 +51,9 @@ document.addEventListener('DOMContentLoaded', function () {
       } else {
         header.classList.remove('navbar-shrink')
       }
+      updateActiveNav()
     })
+    updateActiveNav() // Initial call
   }
 
   /**

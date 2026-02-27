@@ -106,6 +106,7 @@ strong
       list-style-type: none
       display: flex
       align-items: center
+      margin-top: 0.5em
       a
         padding-bottom: .5em
     .current-menu-item
@@ -119,18 +120,17 @@ strong
     &:hover
       opacity: 0.7
   .active
-    a
+    > a, > .dropdown > .dropbtn
       color: #ffffff
       border-bottom: solid .1em #ffffff
       @media only screen and (max-width: 1112px)
         border: none
         color: #5e5e5e
   .dropbtn
-    display: flex
+    display: inline-flex
     align-items: center
     font-weight: 200
     margin: 0 1em
-    padding-bottom: .5em
     transition: opacity 150ms ease
     i
       margin-left: .4em
@@ -142,8 +142,10 @@ strong
 
 .dropdown
   cursor: pointer
-  display: flex
+  display: inline-flex
   align-items: center
+  position: relative
+  height: 100%
   @media only screen and (max-width: 1112px)
     width: 100%
   &:hover
@@ -165,6 +167,8 @@ strong
   .dropdown-content
     display: none
     position: absolute
+    top: 100%
+    left: 0
     background-color: #f9f9f9
     min-width: 180px
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
