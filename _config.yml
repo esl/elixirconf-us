@@ -28,6 +28,17 @@ social:
 # Build settings
 markdown: kramdown
 permalink: pretty
+exclude:
+  - deps/
+  - node_modules/
+  - .git/
+  - .github/
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - Makefile
+  - bin/
+  - vendor/
 
 collections:
   participants:
