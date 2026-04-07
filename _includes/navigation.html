@@ -9,7 +9,8 @@
   <ul class="nav navigation-bar">
     {% for item in site.data.navigation %}
     {% if item.children %}
-    <li>
+    <!-- Desktop: show as dropdown -->
+    <li class="desktop-only">
       <div class="dropdown">
         <a class="dropbtn">{{item.name}}
           <i class="fa fa-caret-down"></i>
@@ -21,13 +22,19 @@
         </div>
       </div>
     </li>
+    <!-- Mobile: show children as flat items -->
+    {% for child in item.children %}
+    <li class="mobile-only">
+      <a class="page-scroll" href="#{{ child.link }}">{{ child.name }}</a>
+    </li>
+    {% endfor %}
     {% else %}
     <li>
       <a class="page-scroll" href="#{{ item.link }}">{{ item.name }}</a>
     </li>
     {% endif %}
     {% endfor %}
-    <li>
+    <li class="desktop-only">
       <div class="dropdown">
         <a class="dropbtn">Archives
           <i class="fa fa-caret-down"></i>
@@ -36,7 +43,6 @@
           {% for conf in site.data.archive-links %}
           <a href="{{conf.link}}" target="_blank">{{conf.name}}</a>
           {% endfor %}
-
         </div>
       </div>
     </li>

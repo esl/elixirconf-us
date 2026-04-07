@@ -1,48 +1,62 @@
-#testimonials-carousel-quotes {
-  margin-top: 40px;
-  margin-bottom: 40px;
+.testimonials-carousel {
+  margin: 40px 0;
+  position: relative;
+  overflow: hidden;
+
   @media screen and (min-width: 1024px) {
-    margin-top: 60px;
-    margin-bottom: 80px;
+    margin: 60px 0 80px;
   }
+}
 
-  .owl-stage {
-    display: flex;
-    align-items: flex-end;
-  }
+.carousel-track {
+  display: flex;
+  transition: transform 0.4s ease;
+}
 
-  .testimonial-item {
-    position: relative;
-    overflow: hidden;
-    margin: 10px;
-    min-width: 220px;
-    max-width: 90vw;
-    width: 100%;
-    color: #000;
-    text-align: left;
-    box-shadow: none !important;
-    @media screen and (min-width: 768px) {
-      max-width: 310px;
+.carousel-dots {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 30px;
+
+  button {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    border: none;
+    background-color: #ddd;
+    cursor: pointer;
+    padding: 0;
+    transition: background-color 0.2s ease;
+
+    &:hover {
+      background-color: #bbb;
+    }
+
+    &.active {
+      background-color: #576cf6;
     }
   }
-  * {
-    -webkit-box-sizing: border-box;
-    box-sizing: border-box;
-    -webkit-transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
-    transition: all 0.35s cubic-bezier(0.25, 0.5, 0.5, 0.9);
+}
+
+.testimonial-item {
+  flex: 0 0 100%;
+  box-sizing: border-box;
+  padding: 0 10px;
+  display: flex;
+  flex-direction: column;
+
+  @media screen and (min-width: 640px) {
+    flex: 0 0 50%;
   }
 
-  img {
-    max-width: 100%;
-    vertical-align: middle;
-    height: 90px;
-    width: 90px;
-    border-radius: 50%;
-    margin: 40px 0 0 10px;
+  @media screen and (min-width: 1024px) {
+    flex: 0 0 33.333%;
   }
 
   blockquote {
-    display: block;
+    display: flex;
+    align-items: center;
     border-radius: 8px;
     position: relative;
     background-color: #fafafa;
@@ -52,14 +66,16 @@
     margin: 0;
     line-height: 1.6em;
     font-style: italic;
+    min-height: 200px;
+    flex: 1;
 
     p {
       color: #000;
+      margin: 0;
     }
 
     &::before,
     &::after {
-      font-family: 'FontAwesome';
       position: absolute;
       font-size: 50px;
       font-style: normal;
@@ -78,53 +94,46 @@
       bottom: 0;
     }
   }
+
   .arrow {
-    top: 100%;
     width: 0;
     height: 0;
     border-left: 0 solid transparent;
     border-right: 25px solid transparent;
     border-top: 25px solid #fafafa;
-    margin: 0;
-    position: absolute;
+    margin-left: 30px;
+  }
+
+  .testimonial-footer {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+  }
+
+  img {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    object-fit: cover;
+    flex-shrink: 0;
   }
 
   .author {
-    position: absolute;
-    bottom: 45px;
-    padding: 0 10px 0 120px;
-    margin: 0;
+    margin-left: 15px;
     text-transform: uppercase;
-    -webkit-transform: translateY(50%);
-    transform: translateY(50%);
 
     h5 {
       opacity: 0.8;
       margin: 0;
       font-weight: 800;
+      font-size: 0.9em;
 
       span {
         font-weight: 400;
         text-transform: none;
         display: block;
+        margin-top: 4px;
       }
     }
-  }
-  .owl-dot {
-    span {
-      background-color: #fff;
-      opacity: 0.5;
-    }
-    &.active {
-      span {
-        opacity: 1;
-      }
-    }
-  }
-
-  button.owl-next,
-  button.owl-prev {
-    color: #fff;
-    font-size: 30px;
   }
 }

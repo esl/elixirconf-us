@@ -1,3 +1,6 @@
+html
+  scroll-behavior: smooth
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -65,20 +68,22 @@ strong
     overflow-y: scroll
     .nav
       display: none !important
-      margin-top: 1em
+      margin-top: 0
       width: 100%
       li
-        height: 3.5em
+        margin: 0
+        height: auto
         width: 100%
         a
           align-items: center
           background-color: #fff
-          border-bottom: solid .01em #efefef
+          border-bottom: solid 1px #efefef
+          color: #5e5e5e
           display: flex
           flex-grow: 1
           height: 100%
           margin: 0
-          padding: .2em 1em 0 1em
+          padding: 1em
           width: 100%
     .active
       display: flex !important
@@ -96,8 +101,12 @@ strong
       margin-left: 2em
   .nav
     display: flex
+    align-items: center
     li
       list-style-type: none
+      display: flex
+      align-items: center
+      margin-top: 0.5em
       a
         padding-bottom: .5em
     .current-menu-item
@@ -107,24 +116,36 @@ strong
   .page-scroll
     font-weight: 200
     margin: 0 1em
+    transition: opacity 150ms ease
+    &:hover
+      opacity: 0.7
   .active
-    a
+    > a, > .dropdown > .dropbtn
       color: #ffffff
       border-bottom: solid .1em #ffffff
       @media only screen and (max-width: 1112px)
         border: none
         color: #5e5e5e
   .dropbtn
+    display: inline-flex
+    align-items: center
     font-weight: 200
     margin: 0 1em
+    transition: opacity 150ms ease
+    i
+      margin-left: .4em
+    &:hover
+      opacity: 0.7
     @media only screen and (max-width: 1112px)
       padding: 1em !important
       width: 100%
 
 .dropdown
   cursor: pointer
-  float: left
-  overflow: hidden
+  display: inline-flex
+  align-items: center
+  position: relative
+  height: 100%
   @media only screen and (max-width: 1112px)
     width: 100%
   &:hover
@@ -137,7 +158,8 @@ strong
         color: #17222b !important
         border-bottom: solid .1em #eeeeee
         font-weight: 200
-        padding: .5em
+        padding: .5em 1em
+        margin: 0
         @media only screen and (max-width: 1112px)
           padding: 1em
         &:hover
@@ -145,10 +167,25 @@ strong
   .dropdown-content
     display: none
     position: absolute
+    top: 100%
+    left: 0
     background-color: #f9f9f9
-    min-width: 160px
+    min-width: 180px
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2)
     z-index: 1
+    a
+      display: block
+      width: 100%
+
+.desktop-only
+  display: block
+  @media only screen and (max-width: 1112px)
+    display: none !important
+
+.mobile-only
+  display: none !important
+  @media only screen and (max-width: 1112px)
+    display: block !important
 
 .navbar-shrink
   background: #9769c9
@@ -296,20 +333,20 @@ strong
 .text-title
   color: #9769c9
   letter-spacing: .1em
-  font-family: 'Lato'
+  font-family: 'Montserrat', sans-serif
   font-size: 1.5em
 
 .text-subtitle
   color: #17222b
   letter-spacing: .1em
-  font-family: 'Lato'
+  font-family: 'Montserrat', sans-serif
   font-size: 1.5em
   font-weight: 100
 
 .text-content
   color: #17222b
   letter-spacing: .1em
-  font-family: 'Lato'
+  font-family: 'Montserrat', sans-serif
   font-size: 1em
   font-weight: 100
 

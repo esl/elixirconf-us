@@ -3,11 +3,19 @@
   <h3 class="title">{{ site.data.settings.homepage_settings.gallery.title }}</h3>
   <hr />
   {% endif %}
-  <div class="gallery-grid my-3">
+  <div class="gallery-grid my-3" data-lightbox-gallery>
      {% for image in site.data.gallery_images %}
-    <a data-fslightbox="gallery" class="gallery-item" href="{{ image.src }}">
+    <a class="gallery-item" href="{{ image.src }}" data-lightbox>
       <img src="{{ image.src }}" alt="{{ image.alt }}">
     </a>
     {% endfor %}
   </div>
+</div>
+
+<!-- Lightbox overlay -->
+<div class="lightbox-overlay" id="lightbox">
+  <button class="lightbox-close" aria-label="Close">&times;</button>
+  <button class="lightbox-prev" aria-label="Previous">&lsaquo;</button>
+  <button class="lightbox-next" aria-label="Next">&rsaquo;</button>
+  <img class="lightbox-image" src="" alt="">
 </div>
