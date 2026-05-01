@@ -12,3 +12,7 @@ trainings:
   start: 2026-09-09T09:00:00.000+00:00
   end: 2026-09-09T17:00:00.000+00:00
   timezone: CT
+- training: _trainings/hands‑on-embedded-elixir-with-nerves.md
+  start: 2026-09-09T09:00:00.000+00:00
+  end: 2026-09-09T17:00:00.000+00:00
+  timezone: CT
