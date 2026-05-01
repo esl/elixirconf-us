@@ -1,33 +1,23 @@
 ---
 experience:
 - Intermediate
-title: "Beyond Vibe Coding: Layered AI Prompts and Elixir Code to Achieve Better Outcomes"
-type: tutorial
-event_date: September 4 (virtual) & September 9, 2026 (in-person)
-venue: online | in-person venue TBC
+title: "Building Local-First Apps in Pure Elixir with Hologram"
+type: trining
+event_date: September 9, 2026
+venue: TBC
 trainers:
-- _participants/bruce-tate.md
+- _participants/bart-blast.md
 ---
 
-Stop writing monolithic prompts and hoping for the best. This full-day training teaches systematic layering for AI-assisted development: decomposing complex interactions into skills (reusable capabilities), agents (specialized roles), tasks (sequential workflows), and processes (orchestrated systems). Drawing from Elixir's compositional patterns, you'll learn to engineer predictable AI workflows instead of crossing your fingers.
+Local-First is coming to the Elixir ecosystem - and Hologram is leading the way. In this hands-on workshop, you'll build real-world applications that work offline, sync seamlessly, and run in pure Elixir on both client and server. You'll walk away with working code and the knowledge to build your own Local-First Elixir apps.
 
-You'll discover how to get rapid feedback at each layer rather than waiting until the end, and how to anchor long-running workflows in markdown documents and code comments that persist context across sessions. Through hands-on exercises building Phoenix applications, you'll transform sprawling prompts into debuggable architectures where each piece can be understood, tested, and iterated independently.
+**OBJECTIVES:**
+* Understand Local-First architecture and why it matters
+* Learn how Hologram runs pure Elixir in the browser
+* Build a working Local-First app with offline support and seamless sync
+* Leave ready to build your own Local-First Elixir applications
 
-Leave with practical patterns for reliable AI-assisted development that feel as solid as the OTP patterns you already trust.
-
-**WHAT YOU'LL BUILD:**
-- Layered prompt architecture for Phoenix applications  
-- Specialized agents for development phases
-- Reusable skills library
-- Workflows with feedback checkpoints
-- Markdown and code-based workflow anchors
-
-**WHAT YOU'LL LEARN:**
-- Decomposing prompts into testable layers with fast feedback
-- When to create skills vs. agents vs. tasks
-- Using artifacts to anchor workflow state
-- Debugging by isolating layers
-
-**AUDIENCE:** Elixir developers seeking systematic AI-assisted development approaches. Applicable whether using Claude Code, Cursor, or building custom AI integrations.
-
-**TAKEWAY:** A framework for treating AI interactions as architecture—composed of understandable, controllable layers you can reason about independently. Move from unpredictable experimentation to engineered workflows with early feedback and persistent anchors.
+**PREREQUISITIES**
+* Familiarity with Elixir syntax and concepts
+* Some experience with web development
+* Laptop with Elixir and Hologram installed
