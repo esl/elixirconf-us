@@ -1,8 +1,9 @@
 ---
 name: Bruce Tate
-pic_url: "/assets/images/Bruce_Tate.jpg"
-tagline: "Founder, Groxio"
-twitter: redrapids
+pic_url: "/assets/images/speakers/Bruce_Tate.jpg"
+tagline: Author, Editor, Founder of Grox.IO
+github: batate
+twitter: "@redrapids"
 linkedin: /in/bruce-tate
 
 ---
