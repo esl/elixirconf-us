@@ -15,6 +15,10 @@ You'll discover how to get rapid feedback at each layer rather than waiting unti
 
 Leave with practical patterns for reliable AI-assisted development that feel as solid as the OTP patterns you already trust.
 
+**DURATION**
+
+8 hours (including breaks and lunch)
+
 **WHAT YOU'LL BUILD:**
 - Layered prompt architecture for Phoenix applications  
 - Specialized agents for development phases

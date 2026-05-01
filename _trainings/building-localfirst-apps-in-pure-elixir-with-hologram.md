@@ -11,6 +11,10 @@ trainers:
 
 Local-First is coming to the Elixir ecosystem - and Hologram is leading the way. In this hands-on workshop, you'll build real-world applications that work offline, sync seamlessly, and run in pure Elixir on both client and server. You'll walk away with working code and the knowledge to build your own Local-First Elixir apps.
 
+**DURATION**
+
+8 hours (including breaks and lunch)
+
 **OBJECTIVES:**
 * Understand Local-First architecture and why it matters
 * Learn how Hologram runs pure Elixir in the browser
