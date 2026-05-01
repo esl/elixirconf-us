@@ -7,7 +7,7 @@ experience:
 - Everyone
 type: in-person full-day training course
 title: "Hologram: Building Rich UIs with Elixir Running in the Browser"
-published: true
+published: false
 
 ---
 A full-day, hands-on journey into frontend development with pure Elixir. Learn how to use Hologram to build rich, interactive web applications while staying in your favorite language.
