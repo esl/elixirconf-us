@@ -2,6 +2,7 @@
 name: Bart Blast
 pic_url: "/assets/images/Bart_Blast.jpg"
 tagline: "Creator of Hologram"
+twitter: Bart_Blast
 linkedin: /in/bartblast/
 
 ---
