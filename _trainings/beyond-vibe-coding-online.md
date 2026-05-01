@@ -3,7 +3,7 @@ experience:
 - Intermediate
 title: "Beyond Vibe Coding: Layered AI Prompts and Elixir Code to Achieve Better Outcomes (vitual)"
 type: tutorial
-event_date: September 4
+event_date: September 4, 2026
 venue: online
 trainers:
 - _participants/bruce-tate.md
