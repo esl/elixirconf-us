@@ -6,8 +6,8 @@ type: training
 event_date: September 9, 2026
 venue: TBC
 trainers:
-- _participants/alex-koutmos.md
-- _participants/frank-hunleth.md
+- _participants/ethan-gunderson.md
+- _participants/zack-kayser.md
 ---
 
 This course will be a hands-on dive into the world of instrumenting Elixir applications. We’ll cover the Telemetry library. How it works, drawbacks, and why it’s pervasive in the community. From there we’ll see how we can use Telemetry to generate metrics and trace data for an application. We’ll look at popular libraries and frameworks and how to use their Telemetry events to further enrich our instrumentation. From there, we’ll explore options for visualizing the data we’ve collected.
