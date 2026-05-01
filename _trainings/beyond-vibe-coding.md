@@ -4,7 +4,7 @@ experience:
 title: "Beyond Vibe Coding: Layered AI Prompts and Elixir Code to Achieve Better Outcomes"
 type: tutorial
 event_date: September 4 (virtual) & September 9, 2026 (in-person)
-venue: TBC
+venue: online | in-person venue TBC
 trainers:
 - _participants/bruce-tate.md
 ---
