@@ -1,5 +1,5 @@
-<div class="section training" id="workshops">
-    <h2 class="title">WORKSHOPS</h2>
+<div class="section training" id="training">
+    <h2 class="title">TRAINING</h2>
     <hr />
     <div class="table-container">
         {% for item in site.data.training-list.trainings %} {% assign training =
@@ -11,10 +11,10 @@
                 end_date = item.end | date: '%d' %} {% if start_date != end_date
                 %} {{ start_date }}-{{ end_date }} {{ item.start | date: '%b %Y'
                 }} {{ item.start | date: '%-H' }}:{{ item.start | date: '%M'
-                }}-{{ item.end | date: '%-H' }}:{{ item.end | date: '%M' }} ET
+                }}-{{ item.end | date: '%-H' }}:{{ item.end | date: '%M' }} CT
                 {% else %} {{ item.start | date: '%-d %b %Y' }} {{ item.start |
                 date: '%-H' }}:{{ item.start | date: '%M' }}-{{ item.end | date:
-                '%-H' }}:{{ item.end | date: '%M' }} ET {% endif %}
+                '%-H' }}:{{ item.end | date: '%M' }} CT {% endif %}
             </div>
 
             <div class="item-col item-training">
