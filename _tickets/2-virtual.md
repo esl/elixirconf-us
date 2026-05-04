@@ -1,11 +1,11 @@
 ---
-title: 'Virtual Ticket'
+title: 'Regular Virtual Ticket'
 price: '$249'
-discount:
-description: "Can't join us in Orlando? Opt for virtual attendance!"
+discount: "Can't join us in Chicago? Opt for virtual attendance!"
+description: "Available from 25 June/or when Early Bird tickets sell out, until 25 August or until they sell out."
 link: '#register'
 conditions:
-  - "The conference ticket doesn't include workshop sessions."
+  - "The conference ticket doesn't include training courses."
 ---
 
 ### INCLUDED
