@@ -1,5 +1,5 @@
 ---
-title: 'In-Person Regular Ticket'
+title: 'Regular In-Person Ticket'
 price: '$999'
 discount:
 description: "Available from 25 June/or when Early Bird tickets sell out, until 25 August or until they sell out."
