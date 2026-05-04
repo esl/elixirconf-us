@@ -1,11 +1,11 @@
 ---
-title: 'In-Person Ticket'
+title: 'In-Person Regular Ticket'
 price: '$999'
 discount:
-description: "Limited amount available."
+description: "Available from 25 June/or when Early Bird tickets sell out, until 25 August or until they sell out."
 link: '#register'
 conditions:
-  - "The conference ticket doesn't include workshop sessions."
+  - "The conference ticket doesn't include training courses."
 ---
 
 ### INCLUDED
@@ -18,4 +18,4 @@ conditions:
 - Access to networking and exhibitors area at the venue
 - Conference t-shirt
 - Lunch and beverages
-- Invitation to the reception on Day 1
+- Invitation to the reception
