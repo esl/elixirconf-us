@@ -4,6 +4,10 @@ trainings:
   start: 2026-09-04T09:00:00.000+00:00
   end: 2026-09-04T17:00:00.000+00:00
   timezone: CT
+- training: _trainings/the-toy-alchemist-virtual.md
+  start: 2026-09-04T09:00:00.000+00:00
+  end: 2026-09-04T17:00:00.000+00:00
+  timezone: CT
 - training: _trainings/beyond-vibe-coding.md
   start: 2026-09-09T09:00:00.000+00:00
   end: 2026-09-09T17:00:00.000+00:00
