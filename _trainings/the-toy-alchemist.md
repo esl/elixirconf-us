@@ -1,12 +1,12 @@
 ---
 trainers:
 - _participants/jamie-wright.md
-event_date: September 4, 2026
-venue: online
+event_date: September 9, 2026
+venue: TBC
 experience:
 - Beginners
 type: training
-title: "The Toy Alchemist : Have fun, build a game, and learn Elixir (virtual)"
+title: "The Toy Alchemist : Have fun, build a game, and learn Elixir"
 published: true
 
 ---
