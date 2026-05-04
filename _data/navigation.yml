@@ -12,8 +12,8 @@
 #    link: "schedule"
 #  - name: Speakers
 #    link: "keynotes"
-#  - name: Trainers
-#    link: "trainers"
+  - name: Trainers
+    link: "trainers"
 #  - name: Workshops
 #    link: "workshops"
 #- name: Access Recordings
@@ -34,8 +34,8 @@
   link: "keynotes"
 #- name: 2025 recordings
 #  link: "video"
-#- name: Workshops
-#  link: "workshops"
+- name: Training
+  link: "training"
 #- name: Diversity
 #  link: "diversity"
 #- name: Volunteer
