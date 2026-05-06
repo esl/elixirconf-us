@@ -2,7 +2,7 @@
 experience:
 - Intermediate
 title: "Reviewable Code in the Age of Agents: Shipping Code Your Lead Trusts"
-type: tutorial
+type: training
 event_date: September 9, 2026
 venue: TBC
 trainers:
