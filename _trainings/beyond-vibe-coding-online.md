@@ -7,6 +7,7 @@ event_date: September 4, 2026
 venue: online
 trainers:
 - _participants/bruce-tate.md
+published: false
 ---
 
 Stop writing monolithic prompts and hoping for the best. This full-day training teaches systematic layering for AI-assisted development: decomposing complex interactions into skills (reusable capabilities), agents (specialized roles), tasks (sequential workflows), and processes (orchestrated systems). Drawing from Elixir's compositional patterns, you'll learn to engineer predictable AI workflows instead of crossing your fingers.
