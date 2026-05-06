@@ -24,3 +24,11 @@ This full-day, hands-on training teaches the prompt and project architecture tha
 - Specialized prompts for the targeted layers of your stack.
 - Workflows with feedback checkpoints that catch drift early.
 - Project anchors - markdown, comments, and memory files - that keep your prompts and your codebase aligned across sessions.
+
+**WHAT YOU'LL LEARN:**
+- Decomposing prompts into testable layers with fast feedback
+- When to create skills vs. agents vs. tasks
+- Using artifacts to anchor workflow state
+- Debugging by isolating layers
+
+**AUDIENCE:** Elixir developers seeking systematic AI-assisted development approaches. Applicable whether using Claude Code, Cursor, or building custom AI integrations.
