@@ -8,7 +8,7 @@
     link: "welcome"
   - name: Venue & Hotel
     link: "venue"
-  - name: TICKETS
+  - name: Tickets
     link: "tickets"
 #  - name: Schedule
 #    link: "schedule"
@@ -18,6 +18,8 @@
     link: "trainers"
 #  - name: Workshops
 #    link: "workshops"
+- name: REGISTER
+  link: "register"
 #- name: Access Recordings
 #  link: "register"
 #- name: 2026 Waiting List
