@@ -2,7 +2,7 @@
 audience:
 - intermediate
 tags: [LocalAI, SovereignTech, PhoenixLiveView]
-title: Rethinking Modern Education: Building a Local-First AI "Forge" with Phoenix, Nx, and Bumblebee
+title: Rethinking Modern Education: Building a Local-First AI Forge with Phoenix, Nx, and Bumblebee
 speakers:
 - _participants/kathy-rodante.md
 - _participants/chris-bailey.md
