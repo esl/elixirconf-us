@@ -1,7 +1,7 @@
 ---
 name: James	Gray
 pic_url: "/assets/images/speakers/James-Gray.jpg"
-tagline: "JEG2"
+tagline: "Principle Engineer"
 twitter: JEG2
 linkedin: /in/james-edward-gray-ii/
 
