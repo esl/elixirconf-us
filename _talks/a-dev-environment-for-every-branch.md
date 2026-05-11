@@ -7,9 +7,9 @@ speakers:
 - _participants/jason-axelson.md
 
 ---
-What if every branch had its own server, its own database, and its own HTTPS URL — ready the moment you created it? That's what git worktrees make possible, but `git worktree add` is not enough, you also need to build a workflow around it.
+What if every branch had its own server, its own database, and its own HTTPS URL — ready the moment you created it? That's what git worktrees make possible, but 'git worktree add' is not enough, you also need to build a workflow around it.
 
-In this talk, I'll show how I built a workflow that makes worktrees practical for Phoenix apps: copying `_build` artifacts with copy-on-write, cloning the Postgres database, automatically assigning ports so your servers never collide, and giving every branch its own URL — like `https://my-feature.local` (look Ma, no port!). I'll also show how I used LLMs to build the script itself, and how you can prompt your way to a version that fits your personal workflow.
+In this talk, I'll show how I built a workflow that makes worktrees practical for Phoenix apps: copying '_build' artifacts with copy-on-write, cloning the Postgres database, automatically assigning ports so your servers never collide, and giving every branch its own URL — like 'https://my-feature.local' (look Ma, no port!). I'll also show how I used LLMs to build the script itself, and how you can prompt your way to a version that fits your personal workflow.
 
 
 **Key takeaways:**
