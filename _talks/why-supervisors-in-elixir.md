@@ -7,7 +7,7 @@ speakers:
 - _participants/tracey-onim.md
 
 ---
-"This topic became close to me when I started interacting more deeply with concurrency in Elixir and truly began to understand the concepts of fault tolerance and robustness  and how much system design revolves around Supervisors.
+This topic became close to me when I started interacting more deeply with concurrency in Elixir and truly began to understand the concepts of fault tolerance and robustness  and how much system design revolves around Supervisors.
 
 When I was new to Elixir, there was always one common answer to the question, “Why Elixir?” — fault tolerance. But for a while, I struggled to fully understand what that actually meant in real-world software applications.
 
@@ -17,7 +17,7 @@ In this talk, I’ll walk through the role Supervisors play in building reliable
 
 I’ll break the concepts down in a simple and relatable way, especially for beginners and intermediate developers working with Elixir applications particularly when navigating concurrency.
 
-My goal is to help attendees move from simply hearing that “Elixir is fault-tolerant” to truly understanding how and why through Supervisors."
+My goal is to help attendees move from simply hearing that “Elixir is fault-tolerant” to truly understanding how and why through Supervisors.
 
 
 **Key takeaways:**
