@@ -2,7 +2,7 @@
 audience:
 - Introductory and overview
 tags: [supervisors concurrency Reliability]
-title: Why Supervisors in Elixir?:  Building Reliable Systems
+title: Why Supervisors in Elixir?  Building Reliable Systems
 speakers:
 - _participants/tracey-onim.md
 
