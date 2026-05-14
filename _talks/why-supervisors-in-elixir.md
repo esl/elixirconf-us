@@ -1,5 +1,5 @@
 ---
-audience:
+level:
 - Introductory and overview
 tags: [supervisors concurrency Reliability]
 title: Why Supervisors in Elixir?  Building Reliable Systems
