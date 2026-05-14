@@ -7,4 +7,4 @@ linkedin: /in/tracey-onim-420b3316a/
 
 ---
 Tracey Onim -  Elixir developer, Code mentor, and community organizer at ElixirKenya from Nairobi, Kenya. Passionate about teaching Elixir, building reliable systems, and growing the Elixir community.
-(https://medium.com/@traceyonim22)[https://medium.com/@traceyonim22]
+[https://medium.com/@traceyonim22](https://medium.com/@traceyonim22)
