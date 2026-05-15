@@ -8,6 +8,7 @@ level: Introductory and overview
 title: "Elixir's Configuration Layers: A Visual Journey"
 speakers:
   - _participants/stephanie-lane.md
+published: false
 
 ---
 Do you really know how your Elixir Config works?
