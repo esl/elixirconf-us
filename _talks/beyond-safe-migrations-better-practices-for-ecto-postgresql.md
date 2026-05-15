@@ -1,11 +1,12 @@
 ---
-tags: 
+tags:
   - beyond-safe-migrations
 
 level: Intermediate
 title: "Beyond Safe Migrations: Better Practices for Ecto + PostgreSQL"
-speakers: 
+speakers:
   - _participants/joe-harrow.md
+published: false
 
 ---
 Database migrations can look safe—tests pass, the code deploys, and the migration runs without error. But as I've discovered the hard way, “safe” ain't easy. In this talk, I’ll explore the subtle (and sometimes catastrophic) ways seemingly safe migrations can impact production systems, especially in high-traffic Elixir applications backed by PostgreSQL.
