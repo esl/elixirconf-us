@@ -2,7 +2,7 @@
 level:
 - intermediate
 tags: [Supervision Reliability Systems]
-title: Let It Crash (But Not Everything): Strategic Supervision for Resilient Systems
+title: Let It Crash (But Not Everything). Strategic Supervision for Resilient Systems
 speakers:
 - _participants/stephanie-lane.md
 - _participants/joe-harrow.md
