@@ -4,7 +4,7 @@ level:
 tags: [OTP AI Exploration]
 title: It's Alive! Agent Self-Determination With Elixir (and NixOS)
 speakers:
-- _participants/lorena-mireles.md
+- _participants/chris-ertel.md
 
 ---
 Agent harnesses are all the new hotness, from Claude Code to OpenClaw--but, as BEAM developers, we've already been exposed to the ideas that I think will underpin the next generation of AI agents.
