@@ -1,6 +1,6 @@
 ---
 name: Lorena Mireles
-pic_url: "/assets/images/Lorena-Mireles-2026.jpeg"
+pic_url: "/assets/images/speakers/lorena-mireles.png"
 tagline: Elixir Developer at Erlang Solutions
 linkedin: in/lorena-mireles-rivero/
 
