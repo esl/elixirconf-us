@@ -7,13 +7,13 @@ speakers:
 - _participants/lorena-mireles.md
 
 ---
-The growing interest in agentic workflows raises familiar engineering questions around coordination, fault tolerance, retries, and long-running state, areas where OTP has decades of practical experience.
+The growing interest in AI is undeniable. Every day, there are advancements, new topics and approaches to explore, more tools, more resources, etc. Everything is moving at such a rapid pace that keeping up in the industry has become even more challenging.
 
-Motivated by the current wave of experimentation around AI agents, this talk explores whether established OTP patterns such as supervision, isolation, backoff, and staged pipelines can offer useful perspectives for thinking about reliability in agentic workflows.
+I personally had tried to stay out of it to avoid being overwhelmed by everything there is to learn. However, I also thought that AI is based on fundamental principles that have been studied for years, and that surely a point of convergence can be found with the technologies I see in my daily work.
 
-This is not a talk about building a new agent framework, nor a claim that OTP is ""the"" solution for agent systems. Instead, it is an exploration connecting ideas from emerging agent architectures with concepts many of us already use in Elixir.
+So, motivated by the current wave of experimentation with AI agents, this talk will explore whether established OTP patterns, such as supervision and isolation, can offer useful insights for addressing reliability in agent-based workflows. It isn't about creating new AI tools, nor is it about focusing on OTP as the solution for everything. Instead, it's an exploration that connects ideas from emerging agent architectures with concepts that many of us already use at Elixir.
 
-The talk invites the community to examine how OTP patterns might inform experimentation in a fast-moving space. It is for developers curious about agentic systems, adapting to shifts in the industry, and interested in how Elixir may participate in those conversations.
+The goal is to analyze how OTP patterns can guide experimentation in a constantly evolving industry. It is aimed at developers interested in agent-based systems, adapting to industry changes, and how Elixir can participate in these discussions.
 
 
 **Key takeaways:**
