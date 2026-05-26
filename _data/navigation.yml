@@ -56,8 +56,8 @@
   link: "contact"
 - name: Join us
   children:
-#    - name: Volunteer
-#      link: "volunteer"
+    - name: Volunteer
+      link: "volunteer"
 #    - name: Get support
 #      link: "diversity"
     - name: Sponsor
