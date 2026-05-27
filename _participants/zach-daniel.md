@@ -1,6 +1,6 @@
 ---
 name: Zach Daniel
-pic_url: "/assets/images/Zach_Daniel.png"
+pic_url: "/assets/images/speakers/Zach-Daniel.jpg"
 tagline: VP of Engineering at Remedy, Author of Ash Framework
 twitter: ZachSDaniel1
 linkedin: in/zachdaniel/
