@@ -7,7 +7,7 @@ venue: Renaissance Orlando at SeaWorld
 experience: all levels
 type: workshop
 title: "Ash AI Hackathon"
-published: true
+published: false
 
 ---
 Join us for an introduction to Ash AI followed by a free-form hackathon on AI apps with Ash.
