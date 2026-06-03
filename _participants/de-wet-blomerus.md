@@ -1,10 +1,9 @@
 ---
 name: De Wet Blomerus
 pic_url: "/assets/images/de-wet-blomerus.jpg"
-tagline: I successfully taught several people how to code, starting with the basics
+tagline: Senior Engineer at Cars.com
 github: dewetblomerus
-twitter: ''
+linkedin: /in/dewetblomerus
 
 ---
-De Wet Blomerus (sounds like "The Vet") is married to his best friend, Marysol. They live in Atlanta and together they are raising our three young kids. De Wet is an audiobook devourer, and burger connoisseur, he can ride a wheelie on his bicycle, and he built their kitchen cabinets himself.  
-Elixir gives De Wet a drive and excitement about programming that he has not felt for other technologies in a long time.
+De Wet Blomerus (sounds like "The Vet") enjoys burgers, food from around the world, cycling, spending time with people, and programming. He is married to his best friend. They are raising their three children and call Atlanta home.

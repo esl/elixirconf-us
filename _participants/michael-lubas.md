@@ -7,4 +7,4 @@ twitter: paraxialio
 linkedin: /in/michaellubas/
 
 ---
-Michael Lubas is the founder of Paraxial.io, a security platform for Elixir and Phoenix. He has several years of experience working in web application security, software development, and security consulting. He wants to see every Elixir and Phoenix developer have the tools they need to keep their software safe.
+Michael Lubas is the founder of Paraxial.io, the only application security company with full Elixir support. He is also a member of the Erlang Ecosystem Foundation Security Working Group, an open source software developer, and frequent contributor to the Elixir community on security related topics.

@@ -1,4 +1,5 @@
 ---
+published: false
 tags: Building Terminal Applications
 level: Introductory and overview
 title: "Building Terminal Applications With Elixir"
