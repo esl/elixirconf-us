@@ -5,6 +5,7 @@ tags: [AI pragmatic scale]
 title: Exoskeletons, not Autopilots
 speakers:
 - _participants/zach-daniel.md
+published: false
 
 ---
 There is a lot of talk these days of peril for the software engineering industry. The fundamental thesis is that you will soon be able to dispatch work to an agent, or a ""swarm"" of agents to build your software.
