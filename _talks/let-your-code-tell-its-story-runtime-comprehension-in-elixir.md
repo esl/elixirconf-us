@@ -7,7 +7,7 @@ speakers:
 - _participants/angeleah-daidone.md
 
 ---
-Every Elixir developer has faced a moment where they need to understand what code actually *does*. Not how it's structured, but how it behaves at runtime. Maybe you just joined a team. Maybe you're refactoring code you wrote six months ago. Maybe a function returns the wrong value and you're not sure where things went sideways. Maybe you're reading through modules and the vocabulary keeps shifting, a `contact` here, a `recipient` there, and you can't tell if they're the same thing or not. The question is always the same: "What happens when I call this?"
+Every Elixir developer has faced a moment where they need to understand what code actually *does*. Not how it's structured, but how it behaves at runtime. Maybe you just joined a team. Maybe you're refactoring code you wrote six months ago. Maybe a function returns the wrong value and you're not sure where things went sideways. Maybe you're reading through modules and the vocabulary keeps shifting, a 'contact' here, a 'recipient' there, and you can't tell if they're the same thing or not. The question is always the same: "What happens when I call this?"
 
 CodeStory is a dev tool that solves this problem. It traces a span of execution and renders a nested call tree showing only your project's functions, with named arguments, values, and returns, so you can read the code's story without the noise of stdlib and dependency internals.
 
