@@ -1,6 +1,6 @@
 ---
 name: De Wet Blomerus
-pic_url: "/assets/images/de-wet-blomerus.jpg"
+pic_url: "/assets/images/speakers/De_Wet_Blomerus.jpg"
 tagline: Senior Engineer at Cars.com
 github: dewetblomerus
 linkedin: /in/dewetblomerus
