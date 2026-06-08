@@ -1,7 +1,7 @@
 ---
 name: George Guimarães
 pic_url: "/assets/images/George_Guimaraes.jpg"
-tagline: "Elixir Advocate, ex-Plataformatec"
+tagline: "MTS at New Gen, ex-Plataformatec"
 twitter: georgeguimaraes
 linkedin: /in/georgeguimaraes/
 
