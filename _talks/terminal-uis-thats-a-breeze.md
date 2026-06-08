@@ -7,15 +7,16 @@ speakers:
 - _participants/gary-rennie.md
 
 ---
-Breeze is an Elixir framework for building terminal UIs (TUIs) inspired by Phoenix LiveView, with a goal of provided an excellent developer experience. This talk will explain the why Breeze exists, and then move on the the features available to end users. Some example TUIs built with Breeze will be showcased, along with the tooling that supports development.
+Breeze is an Elixir framework for building Terminal UIs (TUIs) inspired by Phoenix LiveView, with a goal of providing an excellent developer experience. This talk will explain why Breeze exists, and discuss the features available for building applications. Some example TUIs built with Breeze will be showcased, along with the tooling that supports development.
 
-This session will also cover supporting libraries that allow Breeze to work, including how Breeze can work without depending on any NIFs. Additionally, it will cover how Breeze can work with other libraries in the Elixir ecosystem to build a beautiful TUI.
+This session will also cover supporting libraries that Breeze runs on top of, including how Breeze works without depending on any NIFs. Additionally, it will cover how Breeze can work with other libraries in the Elixir ecosystem to build beautiful TUIs.
 
 
 **Key takeaways:**
 
-* After watching this talk, you should feel confident in building a Terminal UI in Elixir, and how Breeze can fit into their existing stack.
+* After watching this talk, you should feel confident in building a Terminal UI
+in Elixir, and how Breeze can fit into your existing stack.
 
 **Target audience:**
 
-* Anyone interested in building TUIs with Elixir. It should appeal to beginners and intermediate alike.
+* Anyone interested in building TUIs with Elixir. It should appeal to all skill ranges.
