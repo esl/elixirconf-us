@@ -8,4 +8,4 @@ linkedin: /in/georgeguimaraes/
 ---
 George co-founded Plataformatec (with José Valim and others), the company behind the Elixir programming language.
 
-He now works as a Principal Engineer at CloudWalk, helping to bring JIM, an AI-powered instant payment app, to the US.
+He now works as a Member of Technical Staff at New Generation, bringing agents to e-commerce with Elixir.
