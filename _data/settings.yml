@@ -1,6 +1,6 @@
 homepage_settings:
   countdown:
-    show: false
+    show: true
     timezone: America/Chicago
     deadline: 2026-06-24 23:59
   modal:
