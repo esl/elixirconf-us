@@ -10,8 +10,8 @@
     link: "venue"
   - name: Tickets
     link: "tickets"
-  - name: Schedule
-    link: "schedule"
+#  - name: Schedule
+#    link: "schedule"
 #  - name: Speakers
 #    link: "keynotes"
   - name: Trainers
