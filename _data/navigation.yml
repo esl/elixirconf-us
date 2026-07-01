@@ -30,8 +30,8 @@
 #  link: "cft"
 #- name: Call for Training
 #  link: "call-for-training"
-#- name: Schedule
-#  link: "schedule"
+- name: Schedule
+  link: "schedule"
 - name: Speakers
   link: "keynotes"
 #- name: 2025 recordings
