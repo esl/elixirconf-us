@@ -1,11 +1,12 @@
 ---
-tags: 
+tags:
   - promotingelixir-beanelixirchampion-ourelixirecosystem
 
 level: Introductory and overview
 title: "How to be an Elixir champion"
-speakers: 
+speakers:
   - _participants/dan-janowski.md
+published: false
 
 ---
 Being an Elixir champion in challenging times requires more than better programming or system design. It demands that we each take on some responsibility for community growth and ecosystem promotion. The world beyond our borders, those unaware of OTP and unversed in the power of our languages, need to be tempted by prospect of our elegant, economical, and durable solutions. Only through collective action as a community can we broadly seed these ideas to foster acceptance and adoption. This session will provide context, a road map, and actions any member can take to realize these goals and ensure a strong and growing Elixir.
