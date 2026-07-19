@@ -6,6 +6,8 @@
   children:
   - name: What is this about?
     link: "welcome"
+  - name: Roundtables
+    link: "bof"
   - name: Venue & Hotel
     link: "venue"
   - name: Tickets
