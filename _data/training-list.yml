@@ -1,30 +1,26 @@
 ---
 trainings:
-- training: _trainings/reviewable-code-in-the-age-of-agents-online.md
-  start: 2026-09-04T09:00:00.000+00:00
-  end: 2026-09-04T17:00:00.000+00:00
-  timezone: CT
-- training: _trainings/the-toy-alchemist-virtual.md
-  start: 2026-09-04T09:00:00.000+00:00
-  end: 2026-09-04T17:00:00.000+00:00
-  timezone: CT
-- training: _trainings/reviewable-code-in-the-age-of-agents.md
-  start: 2026-09-09T09:00:00.000+00:00
-  end: 2026-09-09T17:00:00.000+00:00
-  timezone: CT
-- training: _trainings/building-localfirst-apps-in-pure-elixir-with-hologram.md
-  start: 2026-09-09T09:00:00.000+00:00
-  end: 2026-09-09T17:00:00.000+00:00
-  timezone: CT
-- training: _trainings/hands‑on-embedded-elixir-with-nerves.md
-  start: 2026-09-09T09:00:00.000+00:00
-  end: 2026-09-09T17:00:00.000+00:00
-  timezone: CT
-- training: _trainings/instrumenting-elixir-applications.md
-  start: 2026-09-09T09:00:00.000+00:00
-  end: 2026-09-09T17:00:00.000+00:00
-  timezone: CT
-- training: _trainings/the-toy-alchemist.md
-  start: 2026-09-09T09:00:00.000+00:00
-  end: 2026-09-09T17:00:00.000+00:00
-  timezone: CT
+  - training: _trainings/reviewable-code-in-the-age-of-agents-online.md
+    start: 2026-09-04T09:00:00.000+00:00
+    end: 2026-09-04T17:00:00.000+00:00
+    timezone: CT
+  - training: _trainings/the-toy-alchemist-virtual.md
+    start: 2026-09-04T09:00:00.000+00:00
+    end: 2026-09-04T17:00:00.000+00:00
+    timezone: CT
+  - training: _trainings/reviewable-code-in-the-age-of-agents.md
+    start: 2026-09-09T09:00:00.000+00:00
+    end: 2026-09-09T17:00:00.000+00:00
+    timezone: CT
+  - training: _trainings/building-localfirst-apps-in-pure-elixir-with-hologram.md
+    start: 2026-09-09T09:00:00.000+00:00
+    end: 2026-09-09T17:00:00.000+00:00
+    timezone: CT
+  - training: _trainings/hands‑on-embedded-elixir-with-nerves.md
+    start: 2026-09-09T09:00:00.000+00:00
+    end: 2026-09-09T17:00:00.000+00:00
+    timezone: CT
+  - training: _trainings/instrumenting-elixir-applications.md
+    start: 2026-09-09T09:00:00.000+00:00
+    end: 2026-09-09T17:00:00.000+00:00
+    timezone: CT

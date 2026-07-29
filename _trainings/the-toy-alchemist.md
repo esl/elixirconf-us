@@ -7,7 +7,7 @@ experience:
 - Beginners
 type: training
 title: "The Toy Alchemist : Have fun, build a game, and learn Elixir"
-published: true
+published: false
 
 ---
 ”The Toy Robot” is an interview exercise where you build a simulation of a toy robot moving around a square tabletop through a series of move commands. You can’t let the robot fall off the board!
