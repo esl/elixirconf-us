@@ -7,6 +7,7 @@ event_date: September 9, 2026
 venue: TBC
 trainers:
 - _participants/bruce-tate.md
+published: false
 ---
 
 You just submitted another pull request that got away from you. The Claude session started well. Ten hours later, you've mostly rescued the main ideas — but the code is nowhere near what you know it could be. It's too long. It doesn't reflect the values or the prior art in the codebase. It gravitates toward the exact concepts your team works hard to avoid. You shipped it anyway because the deadline was real. Now it sits in your lead's review queue alongside four others just like it, and you both know it.
