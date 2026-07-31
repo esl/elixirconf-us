@@ -1,7 +1,7 @@
 ---
 format: In-person
 level: Everyone
-title: "Keynote: Set-Theoretic Types from Scratch"
+title: "Set-Theoretic Types from Scratch"
 speakers:
 - _participants/jose-valim.md
 published: true
