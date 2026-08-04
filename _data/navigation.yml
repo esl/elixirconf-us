@@ -58,6 +58,8 @@
   link: "contact"
 - name: Join us
   children:
+    - name: Students
+      link: "banner-1"
     - name: Volunteer
       link: "volunteer"
 #    - name: Get support
