@@ -3,7 +3,7 @@
         <div class="left-content left">
           <h2 class="title">Themed roundtables</h2>
           <hr/>
-          <p>Step into 40-minute Birds of a Feather (BoF) sessions to explore topics suggested and hosted by the community. <br>
+          <p>Step into 45-minute Birds of a Feather (BoF) sessions to explore topics suggested and hosted by the community. <br>
             Join small, roundtable groups of up to 10 participants to share ideas, tackle challenges, and network with peers.
           </br>Lively, informal, and impactful - these sessions are your chance to dive deeper into the subjects that matter most to you.</br>
           </p>
@@ -15,170 +15,175 @@
           <img src="/assets/images/BOF-2025.png" alt="roundtable discussions" style="display:block; width:70%; margin-left: auto; margin-right: auto">
         </div>
     </div>
-    <!-- =====================================================================
-     ELIXIRCONF ROUNDTABLES - grid styled like the original schedule
-     Paste this block just BEFORE the closing </div> of the roundtables
-     section in bof.html.
-     TO DO: replace each REPLACE-ME with the real LinkedIn URL (7 total).
+
+<!-- =====================================================================
+     ELIXIRCONF ROUNDTABLES - single self-contained block for bof.html
+     Paste this whole block just BEFORE the closing </div> of the
+     roundtables section. Everything (schedule + moderator + LinkedIn +
+     description) lives in THIS file. No other files needed.
+
+     LINKEDIN LINKS: each hosted table has  data-url="..."  -> put the
+     moderator's LinkedIn URL there (replace REPLACE-ME). 7 in total.
      All classes/ids are prefixed "ecrt" so nothing clashes.
      ===================================================================== -->
 
 <div class="ecrt-grid">
+  <div class="ecrt-days">
 
-  <!-- ===== DAY 1 ===== -->
-  <h2 class="ecrt-day-title">Thursday, September 10, 2026</h2>
-  <div class="ecrt-head">
-    <span class="ecrt-head-col">Table 1</span>
-    <span class="ecrt-head-col">Table 2</span>
-  </div>
+    <!-- ===== DAY 1 ===== -->
+    <div class="ecrt-daycol">
+      <h2 class="ecrt-day-title">Thursday, September 10</h2>
+      <div class="ecrt-head">
+        <span class="ecrt-head-col">Table 1</span>
+        <span class="ecrt-head-col">Table 2</span>
+      </div>
 
-  <div class="ecrt-row">
-    <span class="ecrt-rowtime">10:55 am</span>
-    <button type="button" class="ecrt-cell ecrt-hosted"
-      data-title="Building High-Performing Engineering Teams"
-      data-time="Thu 10 Sep, 10:55 am - 40 min"
-      data-mod="Christian Koch"
-      data-url="https://www.linkedin.com/in/REPLACE-ME"
-      data-desc="Small, senior, high-trust teams used to be the Elixir exception; now the whole industry is arriving at that shape. If producing code got cheaper, did judgment about what to keep get more valuable, or more scarce? Does senior still mean what it did 18 months ago, and is review discipline holding while everyone reports being faster?">
-      <span class="ecrt-meta">10:55 am &rarr; 40 min</span>
-      <span class="ecrt-title">Building High-Performing Engineering Teams</span>
-      <span class="ecrt-host">Christian Koch</span>
-    </button>
-    <div class="ecrt-cell ecrt-open">
-      <span class="ecrt-meta">10:55 am &rarr; 40 min</span>
-      <span class="ecrt-tag">OPEN TABLE</span>
-      <span class="ecrt-title">Claim it and host your own</span>
+      <div class="ecrt-row">
+        <span class="ecrt-rowtime">10:55 am</span>
+        <button type="button" class="ecrt-cell ecrt-hosted"
+          data-title="Building High-Performing Engineering Teams"
+          data-time="Thu 10 Sep, 10:55 am - 45 min"
+          data-mod="Christian Koch"
+          data-url="https://www.linkedin.com/in/ckochx/"
+          data-desc="Small, senior, high-trust teams used to be the Elixir exception; now the whole industry is arriving at that shape. If producing code got cheaper, did judgment about what to keep get more valuable, or more scarce? Does senior still mean what it did 18 months ago, and is review discipline holding while everyone reports being faster?">
+          <span class="ecrt-meta">45 min</span>
+          <span class="ecrt-title">Building High-Performing Engineering Teams</span>
+          <span class="ecrt-host">Christian Koch</span>
+        </button>
+        <div class="ecrt-cell ecrt-open">
+          <span class="ecrt-tag">OPEN</span>
+          <span class="ecrt-title">Host your own</span>
+        </div>
+      </div>
+
+      <div class="ecrt-row">
+        <span class="ecrt-rowtime">11:55 am</span>
+        <button type="button" class="ecrt-cell ecrt-hosted"
+          data-title="Ready to Migrate to Elixir?"
+          data-time="Thu 10 Sep, 11:55 am - 45 min"
+          data-mod="Torey Heinz"
+          data-url="https://www.linkedin.com/in/toreyheinz/"
+          data-desc="From a multi-language Ruby shop to a 100% Elixir shop, without stopping the business. Real talk on making the case to management, migrating incrementally, hiring, and what he would do differently. Where do you start: a new service, a strangler pattern, or a rewrite?">
+          <span class="ecrt-meta">45 min</span>
+          <span class="ecrt-title">Ready to Migrate to Elixir?</span>
+          <span class="ecrt-host">Torey Heinz</span>
+        </button>
+        <div class="ecrt-cell ecrt-open">
+          <span class="ecrt-tag">OPEN</span>
+          <span class="ecrt-title">Host your own</span>
+        </div>
+      </div>
+
+      <div class="ecrt-row">
+        <span class="ecrt-rowtime">1:50 pm</span>
+        <button type="button" class="ecrt-cell ecrt-hosted"
+          data-title="Being a Junior Dev in an Agentic World"
+          data-time="Thu 10 Sep, 1:50 pm - 45 min"
+          data-mod="Jeroen Bourgois"
+          data-url="https://www.linkedin.com/in/jeroenbourgois/"
+          data-desc="First stop used to be Stack Overflow; for a whole generation of new devs it is now a prompt. How can junior and aspiring developers build real experience while leaning on AI, and stay critical of what it hands them? If the one-shot solution just works, where does the learning happen?">
+          <span class="ecrt-meta">45 min</span>
+          <span class="ecrt-title">Being a Junior Dev in an Agentic World</span>
+          <span class="ecrt-host">Jeroen Bourgois</span>
+        </button>
+        <div class="ecrt-cell ecrt-open">
+          <span class="ecrt-tag">OPEN</span>
+          <span class="ecrt-title">Host your own</span>
+        </div>
+      </div>
+
+      <div class="ecrt-row">
+        <span class="ecrt-rowtime">2:45 pm</span>
+        <button type="button" class="ecrt-cell ecrt-hosted"
+          data-title="How Should We Be Programming in the Age of AI?"
+          data-time="Thu 10 Sep, 2:45 pm - 45 min"
+          data-mod="Dorian Karter"
+          data-url="https://www.linkedin.com/in/doriankarter/"
+          data-desc="Everyone has an opinion about AI coding agents; almost nobody has settled practice. Are these tools making us better developers or just faster ones, what skills matter more now, and what should stay in human hands? Plus the downstream effects on review, mentorship, and hiring.">
+          <span class="ecrt-meta">45 min</span>
+          <span class="ecrt-title">How Should We Be Programming in the Age of AI?</span>
+          <span class="ecrt-host">Dorian Karter</span>
+        </button>
+        <div class="ecrt-cell ecrt-open">
+          <span class="ecrt-tag">OPEN</span>
+          <span class="ecrt-title">Host your own</span>
+        </div>
+      </div>
     </div>
-  </div>
 
-  <div class="ecrt-row">
-    <span class="ecrt-rowtime">11:55 am</span>
-    <button type="button" class="ecrt-cell ecrt-hosted"
-      data-title="Ready to Migrate to Elixir?"
-      data-time="Thu 10 Sep, 11:55 am - 40 min"
-      data-mod="Torey Heinz"
-      data-url="https://www.linkedin.com/in/REPLACE-ME"
-      data-desc="From a multi-language Ruby shop to a 100% Elixir shop, without stopping the business. Real talk on making the case to management, migrating incrementally, hiring, and what he would do differently. Where do you start: a new service, a strangler pattern, or a rewrite?">
-      <span class="ecrt-meta">11:55 am &rarr; 40 min</span>
-      <span class="ecrt-title">Ready to Migrate to Elixir?</span>
-      <span class="ecrt-host">Torey Heinz</span>
-    </button>
-    <div class="ecrt-cell ecrt-open">
-      <span class="ecrt-meta">11:55 am &rarr; 40 min</span>
-      <span class="ecrt-tag">OPEN TABLE</span>
-      <span class="ecrt-title">Claim it and host your own</span>
+    <!-- ===== DAY 2 ===== -->
+    <div class="ecrt-daycol">
+      <h2 class="ecrt-day-title">Friday, September 11</h2>
+      <div class="ecrt-head">
+        <span class="ecrt-head-col">Table 1</span>
+        <span class="ecrt-head-col">Table 2</span>
+      </div>
+
+      <div class="ecrt-row">
+        <span class="ecrt-rowtime">10:50 am</span>
+        <button type="button" class="ecrt-cell ecrt-hosted"
+          data-title="Programming languages in the AI era"
+          data-time="Fri 11 Sep, 10:50 am - 45 min"
+          data-mod="Vittoria Bitton"
+          data-url="https://www.linkedin.com/in/vittoriabitton/"
+          data-desc="If an LLM writes fluent code in almost any language, does your choice of stack still matter? A look at what language selection means now, and the case for why Erlang and Elixir fault tolerance might matter more than ever. Who guarantees AI-generated code will not crash the system or corrupt state?">
+          <span class="ecrt-meta">45 min</span>
+          <span class="ecrt-title">Programming languages in the AI era</span>
+          <span class="ecrt-host">Vittoria Bitton</span>
+        </button>
+        <button type="button" class="ecrt-cell ecrt-hosted"
+          data-title="How Should Engineering Managers Adapt to AI?"
+          data-time="Fri 11 Sep, 10:50 am - 45 min"
+          data-mod="Brian Meeker"
+          data-url="https://www.linkedin.com/in/brianmeeker/"
+          data-desc="The software industry is in its biggest upheaval in decades. What is a manager supposed to do with it? The pros and cons of AI mandates, managing what the business expects, balancing quality against speed, and whether there is still a future for junior engineers.">
+          <span class="ecrt-meta">45 min</span>
+          <span class="ecrt-title">How Should Engineering Managers Adapt to AI?</span>
+          <span class="ecrt-host">Brian Meeker</span>
+        </button>
+      </div>
+
+      <div class="ecrt-row">
+        <span class="ecrt-rowtime">11:35 am</span>
+        <div class="ecrt-cell ecrt-flex ecrt-span2">
+          <span class="ecrt-meta">until 12:45 pm</span>
+          <span class="ecrt-tag">FLEXIBLE START</span>
+          <span class="ecrt-title">Both tables open, start your own</span>
+        </div>
+      </div>
+
+      <div class="ecrt-row">
+        <span class="ecrt-rowtime">1:45 pm</span>
+        <button type="button" class="ecrt-cell ecrt-hosted"
+          data-title="Elixir's Strengths and Weaknesses in AI-assisted Development"
+          data-time="Fri 11 Sep, 1:45 pm - 45 min"
+          data-mod="Anthony Eden"
+          data-url="https://www.linkedin.com/in/aeden/"
+          data-desc="Everyone is pairing with an AI agent now, but is Elixir the right language to hand it? Where Elixir shines with generative AI tooling, where it does not, and how to keep defects low when a lot of the code writes itself.">
+          <span class="ecrt-meta">45 min</span>
+          <span class="ecrt-title">Elixir's Strengths and Weaknesses in AI-assisted Development</span>
+          <span class="ecrt-host">Anthony Eden</span>
+        </button>
+        <div class="ecrt-cell ecrt-open">
+          <span class="ecrt-tag">OPEN</span>
+          <span class="ecrt-title">Host your own</span>
+        </div>
+      </div>
+
+      <div class="ecrt-row">
+        <span class="ecrt-rowtime">2:30 pm</span>
+        <div class="ecrt-cell ecrt-flex ecrt-span2">
+          <span class="ecrt-meta">until 3:45 pm</span>
+          <span class="ecrt-tag">FLEXIBLE START</span>
+          <span class="ecrt-title">Both tables open, start your own</span>
+        </div>
+      </div>
     </div>
-  </div>
 
-  <div class="ecrt-row">
-    <span class="ecrt-rowtime">1:50 pm</span>
-    <button type="button" class="ecrt-cell ecrt-hosted"
-      data-title="Being a Junior Dev in an Agentic World"
-      data-time="Thu 10 Sep, 1:50 pm - 40 min"
-      data-mod="Jeroen Bourgois"
-      data-url="https://www.linkedin.com/in/REPLACE-ME"
-      data-desc="First stop used to be Stack Overflow; for a whole generation of new devs it is now a prompt. How can junior and aspiring developers build real experience while leaning on AI, and stay critical of what it hands them? If the one-shot solution just works, where does the learning happen?">
-      <span class="ecrt-meta">1:50 pm &rarr; 40 min</span>
-      <span class="ecrt-title">Being a Junior Dev in an Agentic World</span>
-      <span class="ecrt-host">Jeroen Bourgois</span>
-    </button>
-    <div class="ecrt-cell ecrt-open">
-      <span class="ecrt-meta">1:50 pm &rarr; 40 min</span>
-      <span class="ecrt-tag">OPEN TABLE</span>
-      <span class="ecrt-title">Claim it and host your own</span>
-    </div>
   </div>
-
-  <div class="ecrt-row">
-    <span class="ecrt-rowtime">2:45 pm</span>
-    <button type="button" class="ecrt-cell ecrt-hosted"
-      data-title="How Should We Be Programming in the Age of AI?"
-      data-time="Thu 10 Sep, 2:45 pm - 40 min"
-      data-mod="Dorian Karter"
-      data-url="https://www.linkedin.com/in/REPLACE-ME"
-      data-desc="Everyone has an opinion about AI coding agents; almost nobody has settled practice. Are these tools making us better developers or just faster ones, what skills matter more now, and what should stay in human hands? Plus the downstream effects on review, mentorship, and hiring.">
-      <span class="ecrt-meta">2:45 pm &rarr; 40 min</span>
-      <span class="ecrt-title">How Should We Be Programming in the Age of AI?</span>
-      <span class="ecrt-host">Dorian Karter</span>
-    </button>
-    <div class="ecrt-cell ecrt-open">
-      <span class="ecrt-meta">2:45 pm &rarr; 40 min</span>
-      <span class="ecrt-tag">OPEN TABLE</span>
-      <span class="ecrt-title">Claim it and host your own</span>
-    </div>
-  </div>
-
-  <!-- ===== DAY 2 ===== -->
-  <h2 class="ecrt-day-title">Friday, September 11, 2026</h2>
-  <div class="ecrt-head">
-    <span class="ecrt-head-col">Table 1</span>
-    <span class="ecrt-head-col">Table 2</span>
-  </div>
-
-  <div class="ecrt-row">
-    <span class="ecrt-rowtime">10:50 am</span>
-    <button type="button" class="ecrt-cell ecrt-hosted"
-      data-title="Programming languages in the AI era"
-      data-time="Fri 11 Sep, 10:50 am - 45 min"
-      data-mod="Vittoria Bitton"
-      data-url="https://www.linkedin.com/in/REPLACE-ME"
-      data-desc="If an LLM writes fluent code in almost any language, does your choice of stack still matter? A look at what language selection means now, and the case for why Erlang and Elixir fault tolerance might matter more than ever. Who guarantees AI-generated code will not crash the system or corrupt state?">
-      <span class="ecrt-meta">10:50 am &rarr; 45 min</span>
-      <span class="ecrt-title">Programming languages in the AI era</span>
-      <span class="ecrt-host">Vittoria Bitton</span>
-    </button>
-    <button type="button" class="ecrt-cell ecrt-hosted"
-      data-title="How Should Engineering Managers Adapt to AI?"
-      data-time="Fri 11 Sep, 10:50 am - 45 min"
-      data-mod="Brian Meeker"
-      data-url="https://www.linkedin.com/in/REPLACE-ME"
-      data-desc="The software industry is in its biggest upheaval in decades. What is a manager supposed to do with it? The pros and cons of AI mandates, managing what the business expects, balancing quality against speed, and whether there is still a future for junior engineers.">
-      <span class="ecrt-meta">10:50 am &rarr; 45 min</span>
-      <span class="ecrt-title">How Should Engineering Managers Adapt to AI?</span>
-      <span class="ecrt-host">Brian Meeker</span>
-    </button>
-  </div>
-
-  <div class="ecrt-row">
-    <span class="ecrt-rowtime">11:35 am</span>
-    <div class="ecrt-cell ecrt-flex ecrt-span2">
-      <span class="ecrt-meta">11:35 am &rarr; 12:45 pm window</span>
-      <span class="ecrt-tag">FLEXIBLE START</span>
-      <span class="ecrt-title">Both tables open, pick a topic and start your own</span>
-    </div>
-  </div>
-
-  <div class="ecrt-row">
-    <span class="ecrt-rowtime">1:45 pm</span>
-    <button type="button" class="ecrt-cell ecrt-hosted"
-      data-title="Elixir's Strengths and Weaknesses in AI-assisted Development"
-      data-time="Fri 11 Sep, 1:45 pm - 45 min"
-      data-mod="Anthony Eden"
-      data-url="https://www.linkedin.com/in/REPLACE-ME"
-      data-desc="Everyone is pairing with an AI agent now, but is Elixir the right language to hand it? Where Elixir shines with generative AI tooling, where it does not, and how to keep defects low when a lot of the code writes itself.">
-      <span class="ecrt-meta">1:45 pm &rarr; 45 min</span>
-      <span class="ecrt-title">Elixir's Strengths and Weaknesses in AI-assisted Development</span>
-      <span class="ecrt-host">Anthony Eden</span>
-    </button>
-    <div class="ecrt-cell ecrt-open">
-      <span class="ecrt-meta">1:45 pm &rarr; 45 min</span>
-      <span class="ecrt-tag">OPEN TABLE</span>
-      <span class="ecrt-title">Claim it and host your own</span>
-    </div>
-  </div>
-
-  <div class="ecrt-row">
-    <span class="ecrt-rowtime">2:30 pm</span>
-    <div class="ecrt-cell ecrt-flex ecrt-span2">
-      <span class="ecrt-meta">2:30 pm &rarr; 3:45 pm window</span>
-      <span class="ecrt-tag">FLEXIBLE START</span>
-      <span class="ecrt-title">Both tables open, pick a topic and start your own</span>
-    </div>
-  </div>
-
 </div>
 
-<!-- shared detail modal -->
+<!-- detail popup (moderator + LinkedIn + description) -->
 <div class="ecrt-modal" id="ecrtModal" hidden>
   <div class="ecrt-modal-backdrop" data-ecrt-close></div>
   <div class="ecrt-modal-card" role="dialog" aria-modal="true" aria-labelledby="ecrtModalTitle">
@@ -193,62 +198,50 @@
 <style>
 .ecrt-grid{--ecrt-purple:#a5308f;--ecrt-teal:#5bb7af;--ecrt-head:#efe7f2;
   --ecrt-ink:#2b2b2b;--ecrt-rowline:rgba(0,0,0,.12);
-  max-width:1040px;margin:1.5rem auto 0;color:var(--ecrt-ink);font-family:inherit}
+  max-width:1040px;margin:1.25rem auto 0;color:var(--ecrt-ink);font-family:inherit}
 .ecrt-grid *{box-sizing:border-box}
-
-.ecrt-day-title{text-align:center;font-weight:800;font-size:1.9rem;
-  margin:2rem 0 1rem;letter-spacing:-.01em}
-.ecrt-grid .ecrt-day-title:first-child{margin-top:0}
-
-.ecrt-head{display:grid;grid-template-columns:1fr 1fr;gap:6px;
-  margin-left:5.5rem;background:var(--ecrt-head);border-radius:4px;overflow:hidden}
-.ecrt-head-col{padding:.85rem 1.1rem;font-size:1.05rem;color:#5a4a5f}
-
-.ecrt-row{display:grid;grid-template-columns:5.5rem 1fr 1fr;gap:6px;
-  align-items:stretch;padding-top:6px;border-top:1px dotted var(--ecrt-rowline)}
+.ecrt-days{display:grid;grid-template-columns:1fr 1fr;gap:1.75rem}
+.ecrt-day-title{text-align:center;font-weight:800;font-size:1.25rem;margin:0 0 .6rem;letter-spacing:-.01em}
+.ecrt-head{display:grid;grid-template-columns:1fr 1fr;gap:4px;margin-left:3.4rem;
+  background:var(--ecrt-head);border-radius:4px;overflow:hidden}
+.ecrt-head-col{padding:.5rem .7rem;font-size:.82rem;color:#5a4a5f}
+.ecrt-row{display:grid;grid-template-columns:3.4rem 1fr 1fr;gap:4px;align-items:stretch;
+  padding-top:4px;border-top:1px dotted var(--ecrt-rowline)}
 .ecrt-row:first-of-type{border-top:0}
-.ecrt-rowtime{grid-column:1;align-self:start;padding-top:.9rem;
-  font-size:1.05rem;white-space:nowrap}
-
-.ecrt-cell{all:unset;display:flex;flex-direction:column;gap:.45rem;
-  padding:1.1rem 1.2rem;min-height:120px;color:#fff;font-family:inherit;
-  border-radius:2px}
-.ecrt-meta{font-size:.95rem;color:rgba(255,255,255,.85)}
-.ecrt-title{font-weight:800;font-size:1.35rem;line-height:1.15}
-.ecrt-host{font-weight:700;font-size:1rem;margin-top:.15rem}
+.ecrt-rowtime{grid-column:1;align-self:start;padding-top:.55rem;font-size:.82rem;
+  white-space:nowrap;font-variant-numeric:tabular-nums}
+.ecrt-cell{all:unset;display:flex;flex-direction:column;gap:.25rem;padding:.6rem .7rem;
+  min-height:82px;color:#fff;font-family:inherit;border-radius:2px}
+.ecrt-meta{font-size:.72rem;color:rgba(255,255,255,.85)}
+.ecrt-title{font-weight:800;font-size:.95rem;line-height:1.15}
+.ecrt-host{font-weight:700;font-size:.8rem;margin-top:auto}
 .ecrt-tag{align-self:flex-start;background:rgba(255,255,255,.9);color:#3a3a3a;
-  font-weight:800;font-size:.72rem;letter-spacing:.03em;padding:.28em .6em;border-radius:4px}
-
-.ecrt-hosted{grid-column:span 1;background:var(--ecrt-purple);cursor:pointer;
-  transition:filter .12s ease}
-.ecrt-hosted:hover,.ecrt-hosted:focus-visible{filter:brightness(1.07)}
+  font-weight:800;font-size:.62rem;letter-spacing:.03em;padding:.22em .5em;border-radius:4px}
+.ecrt-hosted{background:var(--ecrt-purple);cursor:pointer;transition:filter .12s ease}
+.ecrt-hosted:hover,.ecrt-hosted:focus-visible{filter:brightness(1.08)}
 .ecrt-hosted:focus-visible{outline:3px solid #fff;outline-offset:-3px}
-.ecrt-host{margin-top:auto}
-
 .ecrt-open,.ecrt-flex{background:var(--ecrt-teal)}
-.ecrt-open .ecrt-title,.ecrt-flex .ecrt-title{font-size:1.15rem;font-weight:700}
+.ecrt-open .ecrt-title,.ecrt-flex .ecrt-title{font-size:.85rem;font-weight:700}
 .ecrt-span2{grid-column:2 / 4}
 
-/* modal */
 .ecrt-modal[hidden]{display:none}
-.ecrt-modal{position:fixed;inset:0;z-index:9999;display:flex;align-items:center;
-  justify-content:center;padding:1rem}
+.ecrt-modal{position:fixed;inset:0;z-index:9999;display:flex;align-items:center;justify-content:center;padding:1rem}
 .ecrt-modal-backdrop{position:absolute;inset:0;background:rgba(0,0,0,.5)}
 .ecrt-modal-card{position:relative;max-width:540px;width:100%;max-height:85vh;overflow:auto;
   background:#fff;color:#2b2b2b;border-radius:16px;padding:1.7rem 1.7rem 1.9rem;
   box-shadow:0 24px 60px rgba(0,0,0,.35);font-family:inherit;line-height:1.55}
-.ecrt-modal-x{position:absolute;top:.5rem;right:.8rem;border:0;background:none;
-  font-size:1.8rem;line-height:1;cursor:pointer;color:#888}
+.ecrt-modal-x{position:absolute;top:.5rem;right:.8rem;border:0;background:none;font-size:1.8rem;line-height:1;cursor:pointer;color:#888}
 .ecrt-modal-time{margin:0 0 .3rem;font-size:.9rem;letter-spacing:.02em;opacity:.65}
 .ecrt-modal-title{margin:0 0 .85rem;font-size:1.4rem;line-height:1.2;font-weight:800}
 .ecrt-modal-mod{margin:0 0 .85rem}
 .ecrt-modal-mod a{color:#a5308f;text-decoration:underline;text-underline-offset:2px;font-weight:600}
 .ecrt-modal-desc{margin:0}
 
-@media (max-width:720px){
+@media (max-width:860px){.ecrt-days{grid-template-columns:1fr;gap:1.5rem}}
+@media (max-width:560px){
   .ecrt-head{margin-left:0;grid-template-columns:1fr}
   .ecrt-row{grid-template-columns:1fr}
-  .ecrt-rowtime{padding-top:.4rem}
+  .ecrt-rowtime{padding-top:.3rem}
   .ecrt-span2{grid-column:auto}
 }
 @media (prefers-reduced-motion:reduce){.ecrt-hosted{transition:none}}
@@ -263,8 +256,7 @@
   var elTitle = document.getElementById('ecrtModalTitle');
   var elLink  = document.getElementById('ecrtModalLink');
   var elDesc  = document.getElementById('ecrtModalDesc');
-
-  function open(btn) {
+  function open(btn){
     elTime.textContent  = btn.getAttribute('data-time') || '';
     elTitle.textContent = btn.getAttribute('data-title') || '';
     elDesc.textContent  = btn.getAttribute('data-desc') || '';
@@ -275,7 +267,6 @@
   }
   function close(){ modal.hidden = true; document.removeEventListener('keydown', onKey); }
   function onKey(e){ if (e.key === 'Escape') close(); }
-
   document.addEventListener('click', function (e) {
     var opener = e.target.closest('.ecrt-hosted');
     if (opener) { e.preventDefault(); open(opener); return; }
@@ -283,5 +274,6 @@
   });
 })();
 </script>
-<!-- ===================== END roundtable grid ===================== -->
+<!-- ===================== END roundtables ===================== -->
+
 </div>
