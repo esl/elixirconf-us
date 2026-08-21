@@ -15,7 +15,6 @@
           <img src="/assets/images/BOF-2025.png" alt="roundtable discussions" style="display:block; width:70%; margin-left: auto; margin-right: auto">
         </div>
     </div>
-
 <!-- =====================================================================
      ELIXIRCONF ROUNDTABLES - single self-contained block for bof.html
      Paste this whole block just BEFORE the closing </div> of the
@@ -26,10 +25,12 @@
      moderator's LinkedIn URL there (replace REPLACE-ME). 7 in total.
      All classes/ids are prefixed "ecrt" so nothing clashes.
      ===================================================================== -->
+
 <div class="ecrt-bar">
   <h2 class="ecrt-bar-title">Roundtable schedule</h2>
   <p class="ecrt-bar-sub">Two tables run each slot. Tap a hosted topic for the moderator and details. Tables marked <span class="ecrt-bar-open">OPEN</span> are yours to claim and host on the day.</p>
 </div>
+
 <div class="ecrt-grid">
   <div class="ecrt-days">
 
@@ -199,6 +200,13 @@
 </div>
 
 <style>
+.ecrt-bar{max-width:1040px;margin:1.75rem auto .25rem;text-align:center;
+  font-family:inherit;color:#2b2b2b}
+.ecrt-bar-title{font-size:1.75rem;font-weight:800;letter-spacing:-.01em;margin:0;
+  padding-bottom:.6rem;border-bottom:3px solid #a5308f;display:inline-block}
+.ecrt-bar-sub{max-width:680px;margin:.9rem auto 0;line-height:1.5;font-size:.95rem;opacity:.85}
+.ecrt-bar-open{display:inline-block;background:#5bb7af;color:#fff;font-weight:800;
+  font-size:.72em;letter-spacing:.03em;padding:.1em .5em;border-radius:4px;vertical-align:baseline}
 .ecrt-grid{--ecrt-purple:#a5308f;--ecrt-teal:#5bb7af;--ecrt-head:#efe7f2;
   --ecrt-ink:#2b2b2b;--ecrt-rowline:rgba(0,0,0,.12);
   max-width:1040px;margin:1.25rem auto 0;color:var(--ecrt-ink);font-family:inherit}
@@ -278,5 +286,4 @@
 })();
 </script>
 <!-- ===================== END roundtables ===================== -->
-
 </div>
