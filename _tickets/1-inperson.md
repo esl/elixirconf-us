@@ -2,7 +2,7 @@
 title: 'Regular in-Person conference ticket'
 price: '$1250'
 discount:
-description: "Available from 25 June/or when Early Bird tickets sell out, until 25 August or until they sell out."
+description: "Available from August 25/or when Standard tickets sell out, until September 11 or until they sell out."
 link: '#register'
 conditions:
   - "The conference ticket doesn't include training courses."
