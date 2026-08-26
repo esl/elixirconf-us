@@ -1,6 +1,6 @@
 ---
 title: 'Regular in-Person conference ticket'
-price: '$999'
+price: '$1250'
 discount:
 description: "Available from 25 June/or when Early Bird tickets sell out, until 25 August or until they sell out."
 link: '#register'
