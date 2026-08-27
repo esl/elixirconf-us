@@ -1,5 +1,5 @@
 ---
-title: 'Regular virtual conference ticket'
+title: 'Last Minute virtual conference ticket'
 price: '$299'
 discount: "Can't join us in Chicago? Opt for virtual attendance!"
 description: "Available from August 25/or when Standard tickets sell out, until September 11 or until they sell out."

@@ -1,5 +1,5 @@
 ---
-title: 'Regular in-person training ticket'
+title: 'Last Minute in-person training ticket'
 price: '$579'
 discount: "Access to the in-person training of your choice on the day before the conference. Limited amount available."
 description: "Available from 25 June/or when tickets sell out."

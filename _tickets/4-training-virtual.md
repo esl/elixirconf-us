@@ -1,7 +1,7 @@
 ---
-title: 'Regular online training ticket'
+title: 'Last minute online training ticket'
 price: '$479'
-discount: "Access to the virtaul training of your choice on September 4. Limited amount available."
+discount: "Access to the virtual training of your choice on September 4. Limited amount available."
 description: "Available from 25 June/or when tickets sell out."
 link: '#register'
 conditions:

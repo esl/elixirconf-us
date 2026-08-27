@@ -1,5 +1,5 @@
 ---
-title: 'Regular in-Person conference ticket'
+title: 'Last Minute in-Person conference ticket'
 price: '$1250'
 discount:
 description: "Available from August 25/or when Standard tickets sell out, until September 11 or until they sell out."
