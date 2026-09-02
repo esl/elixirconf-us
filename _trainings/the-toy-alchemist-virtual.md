@@ -1,3 +1,4 @@
+<!--
 ---
 trainers:
 - _participants/jamie-wright.md
@@ -24,3 +25,4 @@ This is training for those that have little to no exposure to Elixir, Erlang, or
 
 **PREREQUISITES:**
 Any previous development experience. They have an IDE that they use but it may not be for Elixir…yet.
+-->
