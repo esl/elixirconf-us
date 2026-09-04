@@ -1,5 +1,5 @@
 ---
-name: Kathy Rodante
+name: Kathy Keppel
 pic_url: "/assets/images/speakers/Kathy-Rodante.png"
 tagline: Senior Software Engineer @ Vetspire
 linkedin: /in/kathy-rodante/
