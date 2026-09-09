@@ -1,7 +1,7 @@
 ---
 name: Joe Harrow
 pic_url: "/assets/images/Joe_Harrow.jpg"
-tagline: "Senior Software Engineer at Cars.com"
+tagline: "Senior Software Engineer at Stord"
 linkedin: /in/joe-harrow/
 
 ---
