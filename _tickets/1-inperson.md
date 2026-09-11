@@ -1,3 +1,4 @@
+!<--
 ---
 title: 'Last Minute in-Person conference ticket'
 price: '$1250'
@@ -19,3 +20,4 @@ conditions:
 - Conference t-shirt
 - Lunch and beverages
 - Invitation to the reception
+-->!
