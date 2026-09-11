@@ -1,17 +1,15 @@
 ---
-title: 'Last Minute virtual conference ticket'
-price: '$299'
-discount: "Can't join us in Chicago? Opt for virtual attendance!"
-description: "Available from August 25/or when Standard tickets sell out, until September 11 or until they sell out."
-link: '#register'
+title: 'Video Pass'
+price: '199'
+discount: "Missed out on ElixirConf US in Chicago?"
+description: "Grant yourself an access for the next 3 months, before we publish all the videos on YouTube!'
 conditions:
-  - "The conference ticket doesn't include training courses."
+  - "The video pass doesn't include roundtable sessions nor training sessions."
 ---
 
 ### INCLUDED
 
 - Live access to all streamed talks
 - Access to the conference app
-- Access to live Q&A sessions
 - Online networking via app
 - 3 months exclusive access to the recorded talks
