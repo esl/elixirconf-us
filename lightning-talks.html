@@ -1,0 +1,35 @@
+---
+layout: lightning-talks
+title: ElixirConf US 2026 Lightning Talks
+image: assets/images/ECUS26 general.png
+permalink: /lightning-talks/
+---
+
+<div class="lightning-talks-page" id="lightning-talks">
+  <h1 class="lt-title">Lightning Talks</h1>
+  <p class="lt-lead">
+    Watch the recorded lightning talks from ElixirConf US 2026
+  </p>
+  <div class="lightning-talks-container">
+    {% for talk in site.data.lightning_talks %}
+    <div class="lightning-talk-item">
+      <div class="lightning-talk-embed">
+        <iframe
+          src="https://www.youtube.com/embed/{{ talk.youtube_id }}"
+          title="{{ talk.title }}"
+          loading="lazy"
+          frameborder="0"
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+          allowfullscreen
+        ></iframe>
+      </div>
+      <div class="lightning-talk-title">
+        <h3>{{ talk.title }}</h3>
+      </div>
+      <div class="lightning-talk-speaker">
+        <p><i class="fas fa-user-circle mr-2"></i>{{ talk.speaker }}</p>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</div>

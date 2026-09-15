@@ -1,0 +1,136 @@
+// Lightning Talks page — visual style replicated from the ElixirConf EU edition.
+.lightning-talks-page
+    align-items: center
+    background-color: #fff
+    display: flex
+    flex-wrap: wrap
+    justify-content: center
+    padding: 7em 3em 6em
+    width: 100%
+    @media only screen and (max-width: 1112px)
+        padding: 6em 1em 4em
+    .lt-title
+        color: #3A1D4C
+        font-family: 'Montserrat', sans-serif
+        font-size: 2em
+        font-weight: 700
+        letter-spacing: .05em
+        margin: 0 0 1.4em
+        min-width: 100%
+        position: relative
+        text-align: center
+        &::after
+            content: ""
+            position: absolute
+            left: 50%
+            bottom: -.6em
+            transform: translateX(-50%)
+            width: 80px
+            height: 3px
+            background: #E94D8B
+    .lt-lead
+        color: #666666
+        font-family: 'Montserrat', sans-serif
+        font-size: 1.25em
+        font-weight: 300
+        line-height: 1.5em
+        margin: 0 0 2.5em
+        text-align: center
+        width: 100%
+    .lightning-talks-container
+        display: grid
+        gap: 30px
+        grid-template-columns: repeat(2, 1fr)
+        margin: 0 auto
+        max-width: 1000px
+        width: 100%
+        @media only screen and (max-width: 768px)
+            grid-template-columns: 1fr
+    .lightning-talk-item
+        background-color: #ffffff
+        border-left: 4px solid #E94D8B
+        border-radius: 8px
+        box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08)
+        overflow: hidden
+        padding: 25px
+        position: relative
+        text-align: center
+        transition: transform .3s, box-shadow .3s
+        &:hover
+            transform: translateY(-5px)
+            box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15)
+        // decorative folded purple corner, top-right
+        &::before
+            content: ""
+            position: absolute
+            top: 0
+            right: 0
+            width: 0
+            height: 0
+            border-style: solid
+            border-width: 0 40px 40px 0
+            border-color: transparent #9769C9 transparent transparent
+            opacity: .7
+        // embedded video (Option B) — sits above the title, keeps the card style
+        .lightning-talk-embed
+            aspect-ratio: 16 / 9
+            background: #000
+            border-radius: 6px
+            margin-bottom: 1.3em
+            overflow: hidden
+            position: relative
+            width: 100%
+            iframe
+                border: 0
+                display: block
+                height: 100%
+                left: 0
+                position: absolute
+                top: 0
+                width: 100%
+        .lightning-talk-title h3
+            color: #543462
+            font-family: 'Montserrat', sans-serif
+            font-size: 1.3em
+            font-weight: 600
+            line-height: 1.4em
+            margin: 0 0 .75em
+            padding-bottom: .7em
+            position: relative
+            &::after
+                content: ""
+                position: absolute
+                left: 0
+                bottom: 0
+                width: 40px
+                height: 2px
+                background: #E94D8B
+        .lightning-talk-speaker p
+            align-items: center
+            color: #9769C9
+            display: flex
+            font-family: 'Montserrat', sans-serif
+            font-size: 1.1em
+            font-weight: 500
+            margin: 0
+            i
+                color: #E94D8B
+                margin-right: .5em
+        .lightning-talk-video
+            margin-top: 1.2em
+            .video-link
+                align-items: center
+                border: 1px solid #E94D8B
+                border-radius: 4px
+                color: #E94D8B
+                display: inline-flex
+                font-family: 'Montserrat', sans-serif
+                font-size: 1em
+                font-weight: 500
+                padding: .5em 1.1em
+                transition: all .2s ease
+                i
+                    margin-right: .5em
+                &:hover
+                    background-color: #E94D8B
+                    color: #ffffff

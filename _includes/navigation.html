@@ -21,6 +21,10 @@
         </div>
       </div>
     </li>
+    {% elsif item.url %}
+    <li>
+      <a href="{{ item.url | prepend: site.baseurl }}">{{ item.name }}</a>
+    </li>
     {% else %}
     <li>
       <a class="page-scroll" href="#{{ item.link }}">{{ item.name }}</a>
