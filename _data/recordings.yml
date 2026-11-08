@@ -1,0 +1,36 @@
+# ElixirConf US 2026 recordings shown on the homepage (published on the Code Sync YouTube channel).
+y2026_playlist: https://www.youtube.com/@CodeSync/search?query=ElixirConf%20US%202026
+y2026:
+  - id: sgvYFI6cFVQ
+    title: "Keynote: Set-Theoretic Types from Scratch"
+    speaker: José Valim
+  - id: 7smgEJkgqO8
+    title: "Keynote: Exoskeletons, not Autopilots"
+    speaker: Zach Daniel
+  - id: wR9O_MiwZ-8
+    title: "Keynote: What Comes Next"
+    speaker: Chris McCord
+  - id: 7VbPvlKxF9k
+    title: "Update from the Nerves Core Team"
+    speaker: Jon Carstens
+  - id: 3JGKWcKMEgY
+    title: "Update from the Erlang Ecosystem Foundation"
+    speaker: Dan Janowski
+  - id: BoHx136rgbE
+    title: "Lightning Talk: E-mail is broken!"
+    speaker: Zach Supalla
+  - id: 6d69M74qRKI
+    title: "Lightning Talk: Quillex Hits 1.0, the First Native Elixir Text Editor"
+    speaker: Luke Taylor
+  - id: gtiTDNliRyE
+    title: "Lightning Talk: Proof Driven Development"
+    speaker: Gideon Keith-Stanley
+  - id: WoBoBaUpGo4
+    title: "Lightning Talk: Arbor, AI Agent Orchestration on the BEAM"
+    speaker: Hysun Chung
+  - id: Vb1Rr9d6h9E
+    title: "Lightning Talk: Verified Pub/Sub"
+    speaker: Brian Meeker
+  - id: ATN67Hj0C-8
+    title: "Lightning Talk: Process Dictionary Debugger"
+    speaker: Andrew Glassman
