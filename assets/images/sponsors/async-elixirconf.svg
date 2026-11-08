@@ -1,11 +1,15 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 220" width="640" height="220" role="img" aria-label="async.elixirconf.com">
-  <defs><linearGradient id="dg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#E3A422"/><stop offset=".5" stop-color="#F9D759"/><stop offset="1" stop-color="#FBE48A"/></linearGradient></defs>
-  <rect width="640" height="220" rx="16" fill="#2a1650"/>
-  <g transform="translate(70,55) scale(2.3)" fill="none">
-    <circle cx="24" cy="24" r="13" stroke="#9AD7D8" stroke-width="1.7" opacity=".95"/>
-    <circle cx="24" cy="24" r="20" stroke="#9AD7D8" stroke-width="1.7" opacity=".45"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 250 64" width="250" height="64" role="img" aria-label="async.elixirconf.com">
+  <defs>
+    <linearGradient id="dg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#E3A422"/><stop offset=".5" stop-color="#F9D759"/><stop offset="1" stop-color="#FBE48A"/>
+    </linearGradient>
+  </defs>
+  <rect width="250" height="64" rx="12" fill="#1d0c2e"/>
+  <g transform="translate(10,8) scale(1.0)">
+    <circle cx="24" cy="24" r="13" fill="none" stroke="#9AD7D8" stroke-width="1.7" opacity="0.95"/>
+    <circle cx="24" cy="24" r="20" fill="none" stroke="#9AD7D8" stroke-width="1.7" opacity="0.45"/>
     <g transform="translate(16.08,15.09) scale(0.66)"><path d="M12 2C16 8 20 12 20 17a8 8 0 1 1-16 0C4 12 8 8 12 2Z" fill="url(#dg)"/></g>
   </g>
-  <text x="200" y="110" font-family="-apple-system,system-ui,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="74" font-weight="800" letter-spacing="-2.5" fill="#ffffff">async</text>
-  <text x="202" y="152" font-family="-apple-system,system-ui,'Segoe UI',Roboto,'Helvetica Neue',Arial,sans-serif" font-size="28" font-weight="600" fill="#b9a9d8">.elixirconf.com</text>
+  <text x="68" y="35" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-weight="800" font-size="30" letter-spacing="-1.2" fill="#ffffff">async</text>
+  <text x="68" y="52" font-family="-apple-system,'Segoe UI',Roboto,Helvetica,Arial,sans-serif" font-weight="500" font-size="13" fill="#9a86b6">.elixirconf.com</text>
 </svg>
