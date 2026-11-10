@@ -1,3 +1,4 @@
+!<--
 ---
 title: 'Last Minute in-person training ticket'
 price: '$579'
@@ -13,3 +14,4 @@ conditions:
 - Access to full-day of hands-on training course of your choice (see the list below)
 - Materials and/or instructions from trainers
 - Lunch and beverages during the training day
+-->!
