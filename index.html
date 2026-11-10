@@ -1,45 +1,88 @@
 ---
 layout: default
-title: ElixirConf US 2026 - thank you! ElixirConf US 2027 - to be announced
+title: America's Premier Elixir & Phoenix Conference takes place on Sept 10-11, 2026, Chicago & online
 image: assets/images/ECUS26 general.png
-description: ElixirConf US 2026 in Chicago & online is over, thank you to everyone who joined. ElixirConf US 2027 is to be announced.
 ---
 
 {% include cover.html %}
 <!-- end of cover -->
 <!-- start of coundown block -->
 {% if site.data.settings.homepage_settings.countdown.show %} {% include
-countdown.html %} {% endif %}
-<!-- end of coundown block -->
-{% include edition-2027.html %}
-<!-- end of edition-2027 -->
-{% include sponsor-2027.html %}
-<!-- end of sponsor-2027 -->
+countdown.html %} {% endif %} {% comment %} {% include banner-1.html %} {%
+endcomment %}
+<!-- end of banner-1  -->
 {% include welcome.html %}
 <!-- end of welcome -->
+{% comment %} {% include g2g.html %} {% endcomment %}
+<!-- end of travelling -->
+{% comment %} {% include recordings.html %} {% endcomment %}
+<!-- end of recordings -->
+{% comment %} {% include banner-2.html %} {% endcomment %}
+<!-- end of banner-2 -->
+{% include banner-5.html %}
+<!-- end of banner-5 -->
+{% comment %} {% include video.html %} {% endcomment %}
+<!-- end of video -->
+{% include schedule.html %}
+<!-- end of schedule -->
+{% include bof.html %}
+<!-- end of bof  -->
 {% include recordings-2026.html %}
 <!-- end of recordings-2026 -->
 {% include keynotes.html %}
-<!-- end of keynotes -->
+<!-- end of speakers -->
 {% include speakers.html %}
 <!-- end of speakers -->
-{% include schedule.html %}
-<!-- end of schedule -->
+{% include banner-1.html %}
+<!-- end of banner-1 -->
+{% include banner-3.html %}
+<!-- end of banner-3 -->
+{% comment %} {% include lightningtalks.html %} {% endcomment %}
+<!-- end of lightningtalks -->
+{% include banner-schedule.html %}
+<!-- end of schedule banner -->
 {% include training.html %}
 <!-- end of training -->
+{% include trainers.html %}
+<!-- end of trainers -->
+{% if site.data.settings.homepage_settings.tickets %} {% include
+tickets-block.html %} {% endif %}
+<!-- end of tickets -->
+{% include register.html %}
+<!-- end of register -->
+{% include recordings.html %}
+<!-- end of recordings (Eventbrite) -->
+{% comment %} {% include diversity.html %} {% endcomment %}
+<!-- end of diversity -->
+{% include banner-4.html %}
+<!-- end of banner-4 -->
 <!-- start of  testimonials  block -->
 {% if site.data.settings.homepage_settings.testimonials.show %} {% include
 testimonials.html %} {% endif %}
 <!-- end of  testimonials  block -->
-{% include sponsors.html %}
-<!-- end of sponsors -->
 {% include venue.html %}
-<!-- end of venue (accommodation) -->
+<!-- end of venue -->
+{% comment %} {% include covid-19.html %} {% endcomment %}
+<!-- end of covid-19 -->
+{% comment %} {% include hybrid.html %} {% endcomment %}
+<!-- end of hybrid -->
+{% comment %} {% include shop.html %} {% endcomment %}
+<!-- end of shop -->
+{% comment %} {% include blog.html %} {% endcomment %}
+<!-- end of blog -->
+{% if site.data.settings.homepage_settings.gallery.show %} {% include
+gallery-grid.html %} {% endif %}
+<!-- end of gallery-grid  -->
 {% include contact.html %}
 <!-- end of contact -->
+{% include sponsors.html %}
+<!-- end of sponsors -->
 {% include newsletter.html %}
-<!-- end of newsletter (2027 waiting list) -->
-{% comment %} Hidden after the 2026 event: banner-1 (EEF students), banner-3 (lightning talks), banner-4 (volunteer), banner-schedule, banner-5 (moved to sponsor-2027), bof, trainers, tickets-block, register, gallery-grid, cft, call-for-training {% endcomment %}
+<!-- end of newsletter -->
+{% comment %} {% include cft.html %} {% endcomment %}
+<!-- end of cft -->
+{% comment %} {% include call-for-training.html %} {% endcomment %}
+<!-- end of call-for-training  -->
 {% if page.modal.show == true %} {% include modal.html %} {% endif %}
 <!-- modal block -->
 {% if site.data.settings.homepage_settings.modal.show %} {% include modal.html

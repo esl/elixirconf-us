@@ -1,5 +1,4 @@
-!<--
---
+---
 title: 'Last minute online training ticket'
 price: '$479'
 discount: "Access to the virtual training of your choice on September 4. Limited amount available."
@@ -13,4 +12,3 @@ conditions:
 
 - Access to full-day of hands-on online training course of your choice (see the list below)
 - Materials and/or instructions from trainers
--->!
