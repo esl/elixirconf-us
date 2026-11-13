@@ -3,7 +3,6 @@ noindex: true
 sitemap: false
 name: Vittoria Bitton
 pic_url: "/assets/images/vittoria.jpeg"
-tagline: Senior Software Engineer
 github:
 twitter: vittoria_bitton
 
